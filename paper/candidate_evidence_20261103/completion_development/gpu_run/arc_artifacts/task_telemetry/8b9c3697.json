@@ -1,0 +1,275 @@
+{
+  "task_id": "8b9c3697",
+  "train_seconds": 262.3224,
+  "training_steps": 128,
+  "arms": {
+    "control": {
+      "seconds": 180.07939195632935,
+      "requested_seconds": 180,
+      "batch_count": 4,
+      "total_batches": 4,
+      "batches": [
+        {
+          "batch": 0,
+          "seconds": 45.04427099227905,
+          "view_keys": [
+            "8b9c3697_0.permute4150723698.ex012",
+            "8b9c3697_0.permute9302675184.ex012",
+            "8b9c3697_0.rot90.rot90.permute5386701942.ex021",
+            "8b9c3697_0.rot90.rot90.permute8579032416.ex120"
+          ],
+          "dfs_trace": {
+            "prefix_calls": 441,
+            "pruned_extensions": 19402,
+            "deadline_hit": true
+          },
+          "completion": null,
+          "raw_finished": 0,
+          "valid_finished": 0
+        },
+        {
+          "batch": 1,
+          "seconds": 45.03351330757141,
+          "view_keys": [
+            "8b9c3697_0.rot90.permute4281673590.ex102",
+            "8b9c3697_0.rot90.permute4950812673.ex201",
+            "8b9c3697_0.rot90.rot90.rot90.permute1654278039.ex210",
+            "8b9c3697_0.rot90.rot90.rot90.permute4965803712.ex210"
+          ],
+          "dfs_trace": {
+            "prefix_calls": 447,
+            "pruned_extensions": 19664,
+            "deadline_hit": true
+          },
+          "completion": null,
+          "raw_finished": 0,
+          "valid_finished": 0
+        },
+        {
+          "batch": 2,
+          "seconds": 45.05782103538513,
+          "view_keys": [
+            "8b9c3697_0.transpose.permute1602397845.ex201",
+            "8b9c3697_0.transpose.permute9180254367.ex021",
+            "8b9c3697_0.transpose.rot90.rot90.permute0986123745.ex021",
+            "8b9c3697_0.transpose.rot90.rot90.permute5436201789.ex021"
+          ],
+          "dfs_trace": {
+            "prefix_calls": 443,
+            "pruned_extensions": 19487,
+            "deadline_hit": true
+          },
+          "completion": null,
+          "raw_finished": 0,
+          "valid_finished": 0
+        },
+        {
+          "batch": 3,
+          "seconds": 44.94360041618347,
+          "view_keys": [
+            "8b9c3697_0.transpose.rot90.permute4907281356.ex102",
+            "8b9c3697_0.transpose.rot90.permute5980213764.ex102",
+            "8b9c3697_0.transpose.rot90.rot90.rot90.permute6142358709.ex021",
+            "8b9c3697_0.transpose.rot90.rot90.rot90.permute7690351428.ex210"
+          ],
+          "dfs_trace": {
+            "prefix_calls": 444,
+            "pruned_extensions": 19711,
+            "deadline_hit": true
+          },
+          "completion": null,
+          "raw_finished": 0,
+          "valid_finished": 0
+        }
+      ],
+      "sequence_probability_floor": 0.2,
+      "global_budget_truncated": false
+    },
+    "completion": {
+      "seconds": 180.04687118530273,
+      "requested_seconds": 180,
+      "batch_count": 4,
+      "total_batches": 4,
+      "batches": [
+        {
+          "batch": 0,
+          "seconds": 45.072185039520264,
+          "view_keys": [
+            "8b9c3697_0.permute4150723698.ex012",
+            "8b9c3697_0.permute9302675184.ex012",
+            "8b9c3697_0.rot90.rot90.permute5386701942.ex021",
+            "8b9c3697_0.rot90.rot90.permute8579032416.ex120"
+          ],
+          "dfs_trace": {
+            "prefix_calls": 351,
+            "pruned_extensions": 15442,
+            "deadline_hit": true
+          },
+          "completion": {
+            "empty_after_dfs": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "fallback": {
+              "status": [
+                "deadline",
+                "deadline",
+                "deadline",
+                "deadline"
+              ],
+              "generated_tokens": [
+                66,
+                66,
+                66,
+                66
+              ]
+            },
+            "search_fraction": 0.8,
+            "elapsed_seconds": 45.04287648200989,
+            "deadline_overrun_seconds": 0.07219099998474121
+          },
+          "raw_finished": 0,
+          "valid_finished": 0
+        },
+        {
+          "batch": 1,
+          "seconds": 45.05898904800415,
+          "view_keys": [
+            "8b9c3697_0.rot90.permute4281673590.ex102",
+            "8b9c3697_0.rot90.permute4950812673.ex201",
+            "8b9c3697_0.rot90.rot90.rot90.permute1654278039.ex210",
+            "8b9c3697_0.rot90.rot90.rot90.permute4965803712.ex210"
+          ],
+          "dfs_trace": {
+            "prefix_calls": 345,
+            "pruned_extensions": 15177,
+            "deadline_hit": true
+          },
+          "completion": {
+            "empty_after_dfs": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "fallback": {
+              "status": [
+                "deadline",
+                "deadline",
+                "deadline",
+                "deadline"
+              ],
+              "generated_tokens": [
+                66,
+                66,
+                66,
+                66
+              ]
+            },
+            "search_fraction": 0.8,
+            "elapsed_seconds": 45.03761911392212,
+            "deadline_overrun_seconds": 0.08306670188903809
+          },
+          "raw_finished": 0,
+          "valid_finished": 0
+        },
+        {
+          "batch": 2,
+          "seconds": 44.94516587257385,
+          "view_keys": [
+            "8b9c3697_0.transpose.permute1602397845.ex201",
+            "8b9c3697_0.transpose.permute9180254367.ex021",
+            "8b9c3697_0.transpose.rot90.rot90.permute0986123745.ex021",
+            "8b9c3697_0.transpose.rot90.rot90.permute5436201789.ex021"
+          ],
+          "dfs_trace": {
+            "prefix_calls": 349,
+            "pruned_extensions": 15351,
+            "deadline_hit": true
+          },
+          "completion": {
+            "empty_after_dfs": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "fallback": {
+              "status": [
+                "deadline",
+                "deadline",
+                "deadline",
+                "deadline"
+              ],
+              "generated_tokens": [
+                64,
+                64,
+                64,
+                64
+              ]
+            },
+            "search_fraction": 0.8,
+            "elapsed_seconds": 44.92375159263611,
+            "deadline_overrun_seconds": 0.010791540145874023
+          },
+          "raw_finished": 0,
+          "valid_finished": 0
+        },
+        {
+          "batch": 3,
+          "seconds": 44.97040319442749,
+          "view_keys": [
+            "8b9c3697_0.transpose.rot90.permute4907281356.ex102",
+            "8b9c3697_0.transpose.rot90.permute5980213764.ex102",
+            "8b9c3697_0.transpose.rot90.rot90.rot90.permute6142358709.ex021",
+            "8b9c3697_0.transpose.rot90.rot90.rot90.permute7690351428.ex210"
+          ],
+          "dfs_trace": {
+            "prefix_calls": 349,
+            "pruned_extensions": 15436,
+            "deadline_hit": true
+          },
+          "completion": {
+            "empty_after_dfs": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "fallback": {
+              "status": [
+                "deadline",
+                "deadline",
+                "deadline",
+                "deadline"
+              ],
+              "generated_tokens": [
+                65,
+                65,
+                65,
+                65
+              ]
+            },
+            "search_fraction": 0.8,
+            "elapsed_seconds": 44.94874668121338,
+            "deadline_overrun_seconds": 0.04684090614318848
+          },
+          "raw_finished": 0,
+          "valid_finished": 0
+        }
+      ],
+      "sequence_probability_floor": 0.2,
+      "global_budget_truncated": false
+    }
+  },
+  "shared_adaptation": true,
+  "adapted_weights_sha256": "8efb92e0709a29d13b12ca481da4cca36ad85155d73a7e1651309258d0f45af4",
+  "adapter_delta_l2": 7.036221658064168,
+  "changed_adapter_tensors": 506,
+  "arm_order": [
+    "control",
+    "completion"
+  ]
+}

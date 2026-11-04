@@ -1,0 +1,47 @@
+{
+  "tasks": [
+    "dbff022c",
+    "da515329",
+    "dfadab01",
+    "8b9c3697",
+    "a25697e4",
+    "b5ca7ac4",
+    "8f215267",
+    "aa4ec2a5"
+  ],
+  "test_outputs": 9,
+  "scope": "Reused eight-task development panel (7/9 outputs empty in all five earlier arms)",
+  "arms": {
+    "control": "parent recursive DFS, equal remaining-time slices",
+    "iterative": "iterative DFS (src/fast_dfs.py), equal slices; same search order as parent",
+    "length_aware": "iterative DFS, per-output ledger, first-descent extension"
+  },
+  "seconds_per_arm": 180,
+  "cutoff_probability": 0.2,
+  "prediction_before_run": {
+    "mechanism": "Equal slices of 45 s (22.5 s for two-output tasks) admit about 430 (215) forward passes at the measured 0.1035 s per pass; the seven empty outputs need 506-930 tokens.",
+    "falsifiable": [
+      "length_aware empty valid pools below control (7/9 in all prior arms)",
+      "iterative candidates identical to control on batches where neither search hits a deadline",
+      "iterative seconds per forward pass not above control"
+    ]
+  },
+  "primary_metrics": [
+    "empty valid pools",
+    "candidate oracle",
+    "pass@2"
+  ],
+  "primary_comparison": "length_aware minus control, paired by output",
+  "secondary": "iterative minus control step time; candidate equality on undeadlined batches",
+  "stop_rule": "Promote to a fresh-task confirmation only if length_aware reduces empty pools without losing any control solve and time per arm is comparable",
+  "novelty": "Iterative DFS is an implementation change; deadline extension is a scheduling rule; no new model claim",
+  "competition_submission": false,
+  "reserve_tasks_consumed": 0,
+  "budget": {
+    "notebook_wall_seconds": 3600,
+    "max_quota_hours": 1.5
+  },
+  "launch_authorization": "User on 2026-11-04 13:15 (+08:00) asked to pursue the paper prize by any method; one run, at most 1.5 GPU quota hours, keeping at least 4 hours",
+  "fast_dfs_sha256": "1803a077719ae495a6e8a07591dff4d9529116518cd3de16ae7c42af5d49efea",
+  "runtime_sha256": "236a5fa78e57f0001eb29fd9f79c8069c98a8c5f8bb297f9c24ff0b8c6866362"
+}

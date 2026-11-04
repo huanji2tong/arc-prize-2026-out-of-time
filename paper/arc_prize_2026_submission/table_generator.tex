@@ -1,0 +1,16 @@
+\begin{table}[t]\centering\footnotesize
+\caption{Interventions on the generator. Panel W is the weight-training panel (8 tasks, 9 outputs; 2 of 9 outputs fit one view slice). Panel R is a fresh 24-task, 35-output repair panel. Coverage counts outputs whose pool contains the correct grid.}\label{tab:generator}
+\setlength{\tabcolsep}{3.5pt}\begin{tabular}{lccc}\toprule
+Arm & Panel & Pass@2 & Coverage \\\midrule
+Original LoRA loss & W & 1/9 & 1/9 \\
+Loss after first output (PoE) & W & 0/9 & 0/9 \\
+Loss on final output only & W & 0/9 & 0/9 \\
+Original loss, second run & W & 0/9 & 0/9 \\
+Context-weighted loss & W & 0/9 & 0/9 \\
+Parent search (backstop control) & W & 0/9 & 0/9 \\
+Greedy completion backstop & W & 0/9 & 0/9 \\
+\midrule
+Full search, occurrence ranking & R & 4/35 & 7/35 \\
+Shorter search, worst-view score & R & 5/35 & 7/35 \\
+\quad + spatial repairs & R & 5/35 & 7/35 \\
+\bottomrule\end{tabular}\end{table}

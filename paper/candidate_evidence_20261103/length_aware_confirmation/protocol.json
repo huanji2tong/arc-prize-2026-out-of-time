@@ -1,0 +1,62 @@
+{
+  "tasks": [
+    "f560132c",
+    "221dfab4",
+    "4a21e3da",
+    "cbebaa4b",
+    "135a2760",
+    "7b0280bc",
+    "d59b0160",
+    "247ef758",
+    "edb79dae",
+    "b9e38dc0",
+    "faa9f03d",
+    "2d0172a1",
+    "a47bf94d",
+    "8e5c0c38",
+    "bf45cf4b",
+    "f931b4a8",
+    "2b83f449",
+    "20a9e565",
+    "dd6b8c4b",
+    "71e489b6",
+    "981571dc",
+    "7c66cb00",
+    "3a25b0d8",
+    "58f5dbd5",
+    "88bcf3b4",
+    "97d7923e",
+    "53fb4810",
+    "3e6067c3",
+    "800d221b",
+    "78332cb0",
+    "7491f3cf",
+    "c7f57c3e"
+  ],
+  "test_outputs": 48,
+  "scope": "Fresh confirmation on the 32 reserve tasks; first use of these tasks",
+  "arms": {
+    "control": "parent recursive DFS, equal remaining-time slices",
+    "length_aware": "iterative DFS, per-output ledger, first-descent extension"
+  },
+  "seconds_per_arm": 180,
+  "cutoff_probability": 0.2,
+  "frozen_from": "length_aware_development (pilot decision promote_to_fresh_confirmation)",
+  "primary_comparison": "length_aware minus control pass@2, paired by output, task bootstrap",
+  "secondary": [
+    "empty valid pools",
+    "candidate oracle",
+    "gains and losses",
+    "time per forward pass"
+  ],
+  "stop_rule": "Report whatever is observed; no further tuning on these tasks",
+  "competition_submission": false,
+  "reserve_tasks_consumed": 32,
+  "budget": {
+    "notebook_wall_seconds": 10800,
+    "max_quota_hours": 2.0
+  },
+  "launch_authorization": "User on 2026-11-04 13:15 and 19:22 (+08:00): pursue the paper prize by any method and continue",
+  "fast_dfs_sha256": "1803a077719ae495a6e8a07591dff4d9529116518cd3de16ae7c42af5d49efea",
+  "runtime_sha256": "0b11c57c9beced50e3ac270d5575859ed8684ebbc29f3eb7d6a4a24f98bb218c"
+}

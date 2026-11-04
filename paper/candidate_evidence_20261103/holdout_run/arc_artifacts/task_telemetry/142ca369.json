@@ -1,0 +1,100 @@
+{
+  "task_id": "142ca369",
+  "train_seconds": 229.3771,
+  "training_steps": 128,
+  "arms": {
+    "control": {
+      "seconds": 360.0183844566345,
+      "requested_seconds": 360,
+      "batch_count": 8,
+      "total_batches": 8,
+      "batches": [
+        {
+          "batch": 0,
+          "seconds": 45.565242528915405,
+          "view_keys": [
+            "142ca369_0.permute4150723698.ex120",
+            "142ca369_0.permute6720984531.ex021",
+            "142ca369_0.rot90.rot90.permute7931086254.ex012",
+            "142ca369_0.rot90.rot90.permute9302675184.ex120"
+          ]
+        },
+        {
+          "batch": 1,
+          "seconds": 48.866854429244995,
+          "view_keys": [
+            "142ca369_0.rot90.permute1258796043.ex201",
+            "142ca369_0.rot90.permute5386701942.ex021",
+            "142ca369_0.rot90.rot90.rot90.permute2908315674.ex012",
+            "142ca369_0.rot90.rot90.rot90.permute8579032416.ex012"
+          ]
+        },
+        {
+          "batch": 2,
+          "seconds": 51.422117710113525,
+          "view_keys": [
+            "142ca369_1.permute1602397845.ex201",
+            "142ca369_1.permute6827490351.ex102",
+            "142ca369_1.rot90.rot90.permute9180254367.ex210",
+            "142ca369_1.rot90.rot90.permute9368452107.ex102"
+          ]
+        },
+        {
+          "batch": 3,
+          "seconds": 59.43830060958862,
+          "view_keys": [
+            "142ca369_1.rot90.permute5436201789.ex021",
+            "142ca369_1.rot90.permute8024967315.ex210",
+            "142ca369_1.rot90.rot90.rot90.permute0986123745.ex012",
+            "142ca369_1.rot90.rot90.rot90.permute7068392154.ex201"
+          ]
+        },
+        {
+          "batch": 4,
+          "seconds": 59.97262740135193,
+          "view_keys": [
+            "142ca369_0.transpose.permute4950812673.ex012",
+            "142ca369_0.transpose.permute9316478025.ex012",
+            "142ca369_0.transpose.rot90.rot90.permute4281673590.ex201",
+            "142ca369_0.transpose.rot90.rot90.permute7284135096.ex102"
+          ]
+        },
+        {
+          "batch": 5,
+          "seconds": 31.623947620391846,
+          "view_keys": [
+            "142ca369_0.transpose.rot90.permute1654278039.ex021",
+            "142ca369_0.transpose.rot90.permute3170468295.ex201",
+            "142ca369_0.transpose.rot90.rot90.rot90.permute4965803712.ex120",
+            "142ca369_0.transpose.rot90.rot90.rot90.permute7568409321.ex210"
+          ]
+        },
+        {
+          "batch": 6,
+          "seconds": 31.58211660385132,
+          "view_keys": [
+            "142ca369_1.transpose.permute5980213764.ex021",
+            "142ca369_1.transpose.permute6703249158.ex021",
+            "142ca369_1.transpose.rot90.rot90.permute4907281356.ex012",
+            "142ca369_1.transpose.rot90.rot90.permute7562830149.ex102"
+          ]
+        },
+        {
+          "batch": 7,
+          "seconds": 31.546897172927856,
+          "view_keys": [
+            "142ca369_1.transpose.rot90.permute7613284905.ex120",
+            "142ca369_1.transpose.rot90.permute7690351428.ex120",
+            "142ca369_1.transpose.rot90.rot90.rot90.permute6142358709.ex201",
+            "142ca369_1.transpose.rot90.rot90.rot90.permute6150492378.ex012"
+          ]
+        }
+      ],
+      "sequence_probability_floor": 0.2,
+      "global_budget_truncated": false
+    }
+  },
+  "arm_order": [
+    "control"
+  ]
+}

@@ -1,0 +1,551 @@
+{
+  "control_baseline": {
+    "test_outputs": 9,
+    "pass1": 0.0,
+    "pass2": 0.0,
+    "per_output": [
+      {
+        "task_id": "dbff022c",
+        "test_index": 0,
+        "pass1": 0,
+        "pass2": 0
+      },
+      {
+        "task_id": "da515329",
+        "test_index": 0,
+        "pass1": 0,
+        "pass2": 0
+      },
+      {
+        "task_id": "dfadab01",
+        "test_index": 0,
+        "pass1": 0,
+        "pass2": 0
+      },
+      {
+        "task_id": "8b9c3697",
+        "test_index": 0,
+        "pass1": 0,
+        "pass2": 0
+      },
+      {
+        "task_id": "a25697e4",
+        "test_index": 0,
+        "pass1": 0,
+        "pass2": 0
+      },
+      {
+        "task_id": "a25697e4",
+        "test_index": 1,
+        "pass1": 0,
+        "pass2": 0
+      },
+      {
+        "task_id": "b5ca7ac4",
+        "test_index": 0,
+        "pass1": 0,
+        "pass2": 0
+      },
+      {
+        "task_id": "8f215267",
+        "test_index": 0,
+        "pass1": 0,
+        "pass2": 0
+      },
+      {
+        "task_id": "aa4ec2a5",
+        "test_index": 0,
+        "pass1": 0,
+        "pass2": 0
+      }
+    ]
+  },
+  "control_family": {
+    "test_outputs": 9,
+    "pass1": 0.0,
+    "pass2": 0.0,
+    "per_output": [
+      {
+        "task_id": "dbff022c",
+        "test_index": 0,
+        "pass1": 0,
+        "pass2": 0
+      },
+      {
+        "task_id": "da515329",
+        "test_index": 0,
+        "pass1": 0,
+        "pass2": 0
+      },
+      {
+        "task_id": "dfadab01",
+        "test_index": 0,
+        "pass1": 0,
+        "pass2": 0
+      },
+      {
+        "task_id": "8b9c3697",
+        "test_index": 0,
+        "pass1": 0,
+        "pass2": 0
+      },
+      {
+        "task_id": "a25697e4",
+        "test_index": 0,
+        "pass1": 0,
+        "pass2": 0
+      },
+      {
+        "task_id": "a25697e4",
+        "test_index": 1,
+        "pass1": 0,
+        "pass2": 0
+      },
+      {
+        "task_id": "b5ca7ac4",
+        "test_index": 0,
+        "pass1": 0,
+        "pass2": 0
+      },
+      {
+        "task_id": "8f215267",
+        "test_index": 0,
+        "pass1": 0,
+        "pass2": 0
+      },
+      {
+        "task_id": "aa4ec2a5",
+        "test_index": 0,
+        "pass1": 0,
+        "pass2": 0
+      }
+    ]
+  },
+  "control_anchored_family": {
+    "test_outputs": 9,
+    "pass1": 0.0,
+    "pass2": 0.0,
+    "per_output": [
+      {
+        "task_id": "dbff022c",
+        "test_index": 0,
+        "pass1": 0,
+        "pass2": 0
+      },
+      {
+        "task_id": "da515329",
+        "test_index": 0,
+        "pass1": 0,
+        "pass2": 0
+      },
+      {
+        "task_id": "dfadab01",
+        "test_index": 0,
+        "pass1": 0,
+        "pass2": 0
+      },
+      {
+        "task_id": "8b9c3697",
+        "test_index": 0,
+        "pass1": 0,
+        "pass2": 0
+      },
+      {
+        "task_id": "a25697e4",
+        "test_index": 0,
+        "pass1": 0,
+        "pass2": 0
+      },
+      {
+        "task_id": "a25697e4",
+        "test_index": 1,
+        "pass1": 0,
+        "pass2": 0
+      },
+      {
+        "task_id": "b5ca7ac4",
+        "test_index": 0,
+        "pass1": 0,
+        "pass2": 0
+      },
+      {
+        "task_id": "8f215267",
+        "test_index": 0,
+        "pass1": 0,
+        "pass2": 0
+      },
+      {
+        "task_id": "aa4ec2a5",
+        "test_index": 0,
+        "pass1": 0,
+        "pass2": 0
+      }
+    ]
+  },
+  "iterative_baseline": {
+    "test_outputs": 9,
+    "pass1": 0.0,
+    "pass2": 0.0,
+    "per_output": [
+      {
+        "task_id": "dbff022c",
+        "test_index": 0,
+        "pass1": 0,
+        "pass2": 0
+      },
+      {
+        "task_id": "da515329",
+        "test_index": 0,
+        "pass1": 0,
+        "pass2": 0
+      },
+      {
+        "task_id": "dfadab01",
+        "test_index": 0,
+        "pass1": 0,
+        "pass2": 0
+      },
+      {
+        "task_id": "8b9c3697",
+        "test_index": 0,
+        "pass1": 0,
+        "pass2": 0
+      },
+      {
+        "task_id": "a25697e4",
+        "test_index": 0,
+        "pass1": 0,
+        "pass2": 0
+      },
+      {
+        "task_id": "a25697e4",
+        "test_index": 1,
+        "pass1": 0,
+        "pass2": 0
+      },
+      {
+        "task_id": "b5ca7ac4",
+        "test_index": 0,
+        "pass1": 0,
+        "pass2": 0
+      },
+      {
+        "task_id": "8f215267",
+        "test_index": 0,
+        "pass1": 0,
+        "pass2": 0
+      },
+      {
+        "task_id": "aa4ec2a5",
+        "test_index": 0,
+        "pass1": 0,
+        "pass2": 0
+      }
+    ]
+  },
+  "iterative_family": {
+    "test_outputs": 9,
+    "pass1": 0.0,
+    "pass2": 0.0,
+    "per_output": [
+      {
+        "task_id": "dbff022c",
+        "test_index": 0,
+        "pass1": 0,
+        "pass2": 0
+      },
+      {
+        "task_id": "da515329",
+        "test_index": 0,
+        "pass1": 0,
+        "pass2": 0
+      },
+      {
+        "task_id": "dfadab01",
+        "test_index": 0,
+        "pass1": 0,
+        "pass2": 0
+      },
+      {
+        "task_id": "8b9c3697",
+        "test_index": 0,
+        "pass1": 0,
+        "pass2": 0
+      },
+      {
+        "task_id": "a25697e4",
+        "test_index": 0,
+        "pass1": 0,
+        "pass2": 0
+      },
+      {
+        "task_id": "a25697e4",
+        "test_index": 1,
+        "pass1": 0,
+        "pass2": 0
+      },
+      {
+        "task_id": "b5ca7ac4",
+        "test_index": 0,
+        "pass1": 0,
+        "pass2": 0
+      },
+      {
+        "task_id": "8f215267",
+        "test_index": 0,
+        "pass1": 0,
+        "pass2": 0
+      },
+      {
+        "task_id": "aa4ec2a5",
+        "test_index": 0,
+        "pass1": 0,
+        "pass2": 0
+      }
+    ]
+  },
+  "iterative_anchored_family": {
+    "test_outputs": 9,
+    "pass1": 0.0,
+    "pass2": 0.0,
+    "per_output": [
+      {
+        "task_id": "dbff022c",
+        "test_index": 0,
+        "pass1": 0,
+        "pass2": 0
+      },
+      {
+        "task_id": "da515329",
+        "test_index": 0,
+        "pass1": 0,
+        "pass2": 0
+      },
+      {
+        "task_id": "dfadab01",
+        "test_index": 0,
+        "pass1": 0,
+        "pass2": 0
+      },
+      {
+        "task_id": "8b9c3697",
+        "test_index": 0,
+        "pass1": 0,
+        "pass2": 0
+      },
+      {
+        "task_id": "a25697e4",
+        "test_index": 0,
+        "pass1": 0,
+        "pass2": 0
+      },
+      {
+        "task_id": "a25697e4",
+        "test_index": 1,
+        "pass1": 0,
+        "pass2": 0
+      },
+      {
+        "task_id": "b5ca7ac4",
+        "test_index": 0,
+        "pass1": 0,
+        "pass2": 0
+      },
+      {
+        "task_id": "8f215267",
+        "test_index": 0,
+        "pass1": 0,
+        "pass2": 0
+      },
+      {
+        "task_id": "aa4ec2a5",
+        "test_index": 0,
+        "pass1": 0,
+        "pass2": 0
+      }
+    ]
+  },
+  "length_aware_baseline": {
+    "test_outputs": 9,
+    "pass1": 0.2222222222222222,
+    "pass2": 0.2222222222222222,
+    "per_output": [
+      {
+        "task_id": "dbff022c",
+        "test_index": 0,
+        "pass1": 0,
+        "pass2": 0
+      },
+      {
+        "task_id": "da515329",
+        "test_index": 0,
+        "pass1": 0,
+        "pass2": 0
+      },
+      {
+        "task_id": "dfadab01",
+        "test_index": 0,
+        "pass1": 0,
+        "pass2": 0
+      },
+      {
+        "task_id": "8b9c3697",
+        "test_index": 0,
+        "pass1": 1,
+        "pass2": 1
+      },
+      {
+        "task_id": "a25697e4",
+        "test_index": 0,
+        "pass1": 0,
+        "pass2": 0
+      },
+      {
+        "task_id": "a25697e4",
+        "test_index": 1,
+        "pass1": 0,
+        "pass2": 0
+      },
+      {
+        "task_id": "b5ca7ac4",
+        "test_index": 0,
+        "pass1": 0,
+        "pass2": 0
+      },
+      {
+        "task_id": "8f215267",
+        "test_index": 0,
+        "pass1": 0,
+        "pass2": 0
+      },
+      {
+        "task_id": "aa4ec2a5",
+        "test_index": 0,
+        "pass1": 1,
+        "pass2": 1
+      }
+    ]
+  },
+  "length_aware_family": {
+    "test_outputs": 9,
+    "pass1": 0.2222222222222222,
+    "pass2": 0.2222222222222222,
+    "per_output": [
+      {
+        "task_id": "dbff022c",
+        "test_index": 0,
+        "pass1": 0,
+        "pass2": 0
+      },
+      {
+        "task_id": "da515329",
+        "test_index": 0,
+        "pass1": 0,
+        "pass2": 0
+      },
+      {
+        "task_id": "dfadab01",
+        "test_index": 0,
+        "pass1": 0,
+        "pass2": 0
+      },
+      {
+        "task_id": "8b9c3697",
+        "test_index": 0,
+        "pass1": 1,
+        "pass2": 1
+      },
+      {
+        "task_id": "a25697e4",
+        "test_index": 0,
+        "pass1": 0,
+        "pass2": 0
+      },
+      {
+        "task_id": "a25697e4",
+        "test_index": 1,
+        "pass1": 0,
+        "pass2": 0
+      },
+      {
+        "task_id": "b5ca7ac4",
+        "test_index": 0,
+        "pass1": 0,
+        "pass2": 0
+      },
+      {
+        "task_id": "8f215267",
+        "test_index": 0,
+        "pass1": 0,
+        "pass2": 0
+      },
+      {
+        "task_id": "aa4ec2a5",
+        "test_index": 0,
+        "pass1": 1,
+        "pass2": 1
+      }
+    ]
+  },
+  "length_aware_anchored_family": {
+    "test_outputs": 9,
+    "pass1": 0.2222222222222222,
+    "pass2": 0.2222222222222222,
+    "per_output": [
+      {
+        "task_id": "dbff022c",
+        "test_index": 0,
+        "pass1": 0,
+        "pass2": 0
+      },
+      {
+        "task_id": "da515329",
+        "test_index": 0,
+        "pass1": 0,
+        "pass2": 0
+      },
+      {
+        "task_id": "dfadab01",
+        "test_index": 0,
+        "pass1": 0,
+        "pass2": 0
+      },
+      {
+        "task_id": "8b9c3697",
+        "test_index": 0,
+        "pass1": 1,
+        "pass2": 1
+      },
+      {
+        "task_id": "a25697e4",
+        "test_index": 0,
+        "pass1": 0,
+        "pass2": 0
+      },
+      {
+        "task_id": "a25697e4",
+        "test_index": 1,
+        "pass1": 0,
+        "pass2": 0
+      },
+      {
+        "task_id": "b5ca7ac4",
+        "test_index": 0,
+        "pass1": 0,
+        "pass2": 0
+      },
+      {
+        "task_id": "8f215267",
+        "test_index": 0,
+        "pass1": 0,
+        "pass2": 0
+      },
+      {
+        "task_id": "aa4ec2a5",
+        "test_index": 0,
+        "pass1": 1,
+        "pass2": 1
+      }
+    ]
+  }
+}

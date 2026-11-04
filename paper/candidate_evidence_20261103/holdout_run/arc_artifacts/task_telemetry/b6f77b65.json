@@ -1,0 +1,140 @@
+{
+  "task_id": "b6f77b65",
+  "train_seconds": 153.1242,
+  "training_steps": 128,
+  "arms": {
+    "control": {
+      "seconds": 372.72529554367065,
+      "requested_seconds": 360,
+      "batch_count": 12,
+      "total_batches": 12,
+      "batches": [
+        {
+          "batch": 0,
+          "seconds": 39.85179138183594,
+          "view_keys": [
+            "b6f77b65_0.permute4150723698.ex43120",
+            "b6f77b65_0.permute7931086254.ex04321",
+            "b6f77b65_0.rot90.rot90.permute0165489723.ex32401",
+            "b6f77b65_0.rot90.rot90.permute8579032416.ex34021"
+          ]
+        },
+        {
+          "batch": 1,
+          "seconds": 35.59435510635376,
+          "view_keys": [
+            "b6f77b65_0.rot90.permute1654278039.ex13402",
+            "b6f77b65_0.rot90.permute7568409321.ex01234",
+            "b6f77b65_0.rot90.rot90.rot90.permute1456732089.ex30421",
+            "b6f77b65_0.rot90.rot90.rot90.permute9316478025.ex41230"
+          ]
+        },
+        {
+          "batch": 2,
+          "seconds": 23.47597312927246,
+          "view_keys": [
+            "b6f77b65_1.permute1602397845.ex34120",
+            "b6f77b65_1.permute9368452107.ex20431",
+            "b6f77b65_1.rot90.rot90.permute0986123745.ex10243",
+            "b6f77b65_1.rot90.rot90.permute1678240593.ex03142"
+          ]
+        },
+        {
+          "batch": 3,
+          "seconds": 32.32814979553223,
+          "view_keys": [
+            "b6f77b65_1.rot90.permute6150492378.ex32140",
+            "b6f77b65_1.rot90.permute7690351428.ex24031",
+            "b6f77b65_1.rot90.rot90.rot90.permute6572109834.ex32401",
+            "b6f77b65_1.rot90.rot90.rot90.permute6703249158.ex30124"
+          ]
+        },
+        {
+          "batch": 4,
+          "seconds": 26.839606285095215,
+          "view_keys": [
+            "b6f77b65_2.permute4950812673.ex43201",
+            "b6f77b65_2.permute7284135096.ex13042",
+            "b6f77b65_2.rot90.rot90.permute3450786921.ex12043",
+            "b6f77b65_2.rot90.rot90.permute4965803712.ex13402"
+          ]
+        },
+        {
+          "batch": 5,
+          "seconds": 24.984820127487183,
+          "view_keys": [
+            "b6f77b65_2.rot90.permute0845731926.ex40213",
+            "b6f77b65_2.rot90.permute9302675184.ex20143",
+            "b6f77b65_2.rot90.rot90.rot90.permute1258796043.ex03124",
+            "b6f77b65_2.rot90.rot90.rot90.permute1948706532.ex13024"
+          ]
+        },
+        {
+          "batch": 6,
+          "seconds": 32.7834849357605,
+          "view_keys": [
+            "b6f77b65_0.transpose.permute5980213764.ex02134",
+            "b6f77b65_0.transpose.permute7562830149.ex30142",
+            "b6f77b65_0.transpose.rot90.rot90.permute6142358709.ex32401",
+            "b6f77b65_0.transpose.rot90.rot90.permute9578240136.ex42130"
+          ]
+        },
+        {
+          "batch": 7,
+          "seconds": 32.125866413116455,
+          "view_keys": [
+            "b6f77b65_0.transpose.rot90.permute5431627809.ex03412",
+            "b6f77b65_0.transpose.rot90.permute9180254367.ex12340",
+            "b6f77b65_0.transpose.rot90.rot90.rot90.permute8024967315.ex20314",
+            "b6f77b65_0.transpose.rot90.rot90.rot90.permute8271654930.ex32041"
+          ]
+        },
+        {
+          "batch": 8,
+          "seconds": 33.452993869781494,
+          "view_keys": [
+            "b6f77b65_1.transpose.permute2908315674.ex34210",
+            "b6f77b65_1.transpose.permute5386701942.ex43201",
+            "b6f77b65_1.transpose.rot90.rot90.permute6720984531.ex42031",
+            "b6f77b65_1.transpose.rot90.rot90.permute9756482013.ex34120"
+          ]
+        },
+        {
+          "batch": 9,
+          "seconds": 26.233346223831177,
+          "view_keys": [
+            "b6f77b65_1.transpose.rot90.permute0859274163.ex03214",
+            "b6f77b65_1.transpose.rot90.permute4281673590.ex21403",
+            "b6f77b65_1.transpose.rot90.rot90.rot90.permute3170468295.ex30142",
+            "b6f77b65_1.transpose.rot90.rot90.rot90.permute8356214097.ex20314"
+          ]
+        },
+        {
+          "batch": 10,
+          "seconds": 19.39020824432373,
+          "view_keys": [
+            "b6f77b65_2.transpose.permute5436201789.ex20314",
+            "b6f77b65_2.transpose.permute7068392154.ex40123",
+            "b6f77b65_2.transpose.rot90.rot90.permute6827490351.ex34201",
+            "b6f77b65_2.transpose.rot90.rot90.permute8431095762.ex42310"
+          ]
+        },
+        {
+          "batch": 11,
+          "seconds": 45.66449475288391,
+          "view_keys": [
+            "b6f77b65_2.transpose.rot90.permute4095713862.ex43210",
+            "b6f77b65_2.transpose.rot90.permute4907281356.ex40321",
+            "b6f77b65_2.transpose.rot90.rot90.rot90.permute5198207463.ex10432",
+            "b6f77b65_2.transpose.rot90.rot90.rot90.permute7613284905.ex32410"
+          ]
+        }
+      ],
+      "sequence_probability_floor": 0.2,
+      "global_budget_truncated": false
+    }
+  },
+  "arm_order": [
+    "control"
+  ]
+}

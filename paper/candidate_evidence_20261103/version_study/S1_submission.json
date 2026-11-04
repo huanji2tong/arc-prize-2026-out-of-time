@@ -1,0 +1,15 @@
+{
+  "key": "S1",
+  "description": "ARC2 paper S1 likelihood_only 20261103 pinned-v1",
+  "competition": "arc-prize-2026-arc-agi-2",
+  "kernel_ref": "huangjt66/arc2-paper-s1-likelihood-ablation",
+  "kernel_version": 1,
+  "source_sha256": "f3e948663ebe98ed9fd23068af750950ea0c0fcd5f01e666345cde1f949a7d8a",
+  "status": "COMPLETE",
+  "attempted_at": "2026-11-03T21:37:05.052337+08:00",
+  "post_deadline": true,
+  "authorization": "User explicitly authorized several submissions to improve the method and support the paper, 2026-11-03",
+  "submission_id": 57949528,
+  "public_score_raw": "22.78",
+  "last_checked_at": "2026-11-04T19:23:29.358225+08:00"
+}

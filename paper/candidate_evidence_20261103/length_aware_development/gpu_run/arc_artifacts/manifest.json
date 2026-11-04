@@ -1,0 +1,44 @@
+{
+  "upstream": "https://www.kaggle.com/code/koushikrudra/failed-in-aimo?scriptVersionId=312063593",
+  "upstream_public_score": 33.89,
+  "upstream_version": 1,
+  "upstream_notebook_sha256": "71416dd4d9885ecf2ae99b8b72ff0ef66d31fac0354b79d2d11071c49f84111d",
+  "split": "development_pilot_ordered_4_to_15",
+  "primary_selector": "baseline",
+  "python": "3.11.13 (main, Jun  4 2025, 08:57:29) [GCC 11.4.0]",
+  "torch": "2.8.0+cu128",
+  "gpus": [
+    "NVIDIA L4",
+    "NVIDIA L4",
+    "NVIDIA L4",
+    "NVIDIA L4"
+  ],
+  "started_utc": "2026-11-04T05:19:24Z",
+  "seed_policy": "BLAKE2b(task_id) and PYTHONHASHSEED=0",
+  "validation_status": "predictions frozen; nine submission schemas valid",
+  "task_count": 8,
+  "test_output_count": 9,
+  "challenge_sha256": "e7c62a4bd211867c6b538f66b8013b81f299663c82ca062f49a52bf439d6e4e8",
+  "selected_task_ids_sha256": "37ae875adc9139e8fdf0af0b3413666d8ac403cc6d1e068c709be9d5ef5ce323",
+  "arm_seconds": 180,
+  "arms": {
+    "control": 0.2,
+    "iterative": 0.2,
+    "length_aware": 0.2
+  },
+  "adaptation": "shared task-specific model, 128 augmented samples; arm order counterbalanced by task hash",
+  "scheduling": "same remaining-time-per-view-batch policy in both arms",
+  "notebook_timeout_seconds": 3600,
+  "completed_task_ids": [
+    "8b9c3697",
+    "8f215267",
+    "a25697e4",
+    "aa4ec2a5",
+    "b5ca7ac4",
+    "da515329",
+    "dbff022c",
+    "dfadab01"
+  ],
+  "all_selected_tasks_completed": true,
+  "completed_utc": "2026-11-04T05:50:44Z"
+}

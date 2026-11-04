@@ -1,0 +1,15 @@
+{
+  "key": "S2",
+  "description": "ARC2 paper S2 anchored_soft_cover 20261103 pinned-v1",
+  "competition": "arc-prize-2026-arc-agi-2",
+  "kernel_ref": "huangjt66/arc2-paper-s2-complementary-selection",
+  "kernel_version": 1,
+  "source_sha256": "3c79f33062e80b02e3b875405e51e73254848936bb3cf945abefdab34b2143c5",
+  "status": "COMPLETE",
+  "attempted_at": "2026-11-03T21:58:53.356381+08:00",
+  "post_deadline": true,
+  "authorization": "User explicitly authorized several submissions to improve the method and support the paper, 2026-11-03",
+  "submission_id": 57950076,
+  "public_score_raw": "23.61",
+  "last_checked_at": "2026-11-04T19:23:33.529815+08:00"
+}

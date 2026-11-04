@@ -1,0 +1,409 @@
+{
+  "tasks": 8,
+  "test_outputs": 9,
+  "scope": "Reused eight-task development panel (7/9 outputs empty in all five earlier arms)",
+  "correct": {
+    "control_baseline": 0,
+    "iterative_baseline": 0,
+    "length_aware_baseline": 2
+  },
+  "gains": [
+    "8b9c3697_0",
+    "aa4ec2a5_0"
+  ],
+  "losses": [],
+  "iterative_gains": [],
+  "iterative_losses": [],
+  "timings": {
+    "control": {
+      "inference_worker_seconds": 1390.641372680664,
+      "dfs_seconds": 1363.3528463840485,
+      "seconds_per_forward_call": 0.10305789147963175
+    },
+    "iterative": {
+      "inference_worker_seconds": 1388.749781370163,
+      "dfs_seconds": 1361.4125537872314,
+      "seconds_per_forward_call": 0.09985422867736772
+    },
+    "length_aware": {
+      "inference_worker_seconds": 1389.1881546974182,
+      "dfs_seconds": 1191.6417589187622,
+      "seconds_per_forward_call": 0.09827162781780985
+    }
+  },
+  "length_aware_to_control_time_ratio": 0.9989550016188253,
+  "candidate_oracle": {
+    "control": 1,
+    "iterative": 1,
+    "length_aware": 3
+  },
+  "empty_outputs": {
+    "control": 7,
+    "iterative": 7,
+    "length_aware": 1
+  },
+  "unique_candidate_grids": {
+    "control": 10,
+    "iterative": 10,
+    "length_aware": 32
+  },
+  "decoding": {
+    "control": {
+      "prefix_calls": 13229,
+      "eos_within_cutoff": 20,
+      "deadline_batches": 33,
+      "raw_finished": 20,
+      "valid_finished": 20,
+      "max_suffix_tokens": 420,
+      "overran_slice": 0,
+      "skipped_batches": 0
+    },
+    "iterative": {
+      "prefix_calls": 13634,
+      "eos_within_cutoff": 20,
+      "deadline_batches": 33,
+      "raw_finished": 20,
+      "valid_finished": 20,
+      "max_suffix_tokens": 420,
+      "overran_slice": 0,
+      "skipped_batches": 0
+    },
+    "length_aware": {
+      "prefix_calls": 12126,
+      "eos_within_cutoff": 58,
+      "deadline_batches": 22,
+      "raw_finished": 58,
+      "valid_finished": 58,
+      "max_suffix_tokens": 930,
+      "overran_slice": 19,
+      "skipped_batches": 1
+    }
+  },
+  "per_output": {
+    "dbff022c_0": {
+      "control": {
+        "grids": 7,
+        "oracle": 0
+      },
+      "iterative": {
+        "grids": 7,
+        "oracle": 0
+      },
+      "length_aware": {
+        "grids": 7,
+        "oracle": 0
+      }
+    },
+    "da515329_0": {
+      "control": {
+        "grids": 0,
+        "oracle": 0
+      },
+      "iterative": {
+        "grids": 0,
+        "oracle": 0
+      },
+      "length_aware": {
+        "grids": 1,
+        "oracle": 0
+      }
+    },
+    "dfadab01_0": {
+      "control": {
+        "grids": 3,
+        "oracle": 1
+      },
+      "iterative": {
+        "grids": 3,
+        "oracle": 1
+      },
+      "length_aware": {
+        "grids": 3,
+        "oracle": 1
+      }
+    },
+    "8b9c3697_0": {
+      "control": {
+        "grids": 0,
+        "oracle": 0
+      },
+      "iterative": {
+        "grids": 0,
+        "oracle": 0
+      },
+      "length_aware": {
+        "grids": 5,
+        "oracle": 1
+      }
+    },
+    "a25697e4_0": {
+      "control": {
+        "grids": 0,
+        "oracle": 0
+      },
+      "iterative": {
+        "grids": 0,
+        "oracle": 0
+      },
+      "length_aware": {
+        "grids": 3,
+        "oracle": 0
+      }
+    },
+    "a25697e4_1": {
+      "control": {
+        "grids": 0,
+        "oracle": 0
+      },
+      "iterative": {
+        "grids": 0,
+        "oracle": 0
+      },
+      "length_aware": {
+        "grids": 0,
+        "oracle": 0
+      }
+    },
+    "b5ca7ac4_0": {
+      "control": {
+        "grids": 0,
+        "oracle": 0
+      },
+      "iterative": {
+        "grids": 0,
+        "oracle": 0
+      },
+      "length_aware": {
+        "grids": 4,
+        "oracle": 0
+      }
+    },
+    "8f215267_0": {
+      "control": {
+        "grids": 0,
+        "oracle": 0
+      },
+      "iterative": {
+        "grids": 0,
+        "oracle": 0
+      },
+      "length_aware": {
+        "grids": 6,
+        "oracle": 0
+      }
+    },
+    "aa4ec2a5_0": {
+      "control": {
+        "grids": 0,
+        "oracle": 0
+      },
+      "iterative": {
+        "grids": 0,
+        "oracle": 0
+      },
+      "length_aware": {
+        "grids": 3,
+        "oracle": 1
+      }
+    }
+  },
+  "equivalence": {
+    "undeadlined_views_in_both": 12,
+    "identical_grid_sets": 12
+  },
+  "predictions": {
+    "fewer_empty_pools": true,
+    "iterative_identical_when_undeadlined": true,
+    "iterative_not_slower": true
+  },
+  "incomplete": [],
+  "source_matches": true,
+  "independent_selection_and_metric_replay": true,
+  "inference_exit_verification": "complete_notebook_with_subprocess_exit_assertion",
+  "decision": "promote_to_fresh_confirmation",
+  "metrics": {
+    "control_baseline": {
+      "test_outputs": 9,
+      "pass1": 0.0,
+      "pass2": 0.0,
+      "per_output": [
+        {
+          "task_id": "dbff022c",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "da515329",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "dfadab01",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "8b9c3697",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "a25697e4",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "a25697e4",
+          "test_index": 1,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "b5ca7ac4",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "8f215267",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "aa4ec2a5",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        }
+      ]
+    },
+    "iterative_baseline": {
+      "test_outputs": 9,
+      "pass1": 0.0,
+      "pass2": 0.0,
+      "per_output": [
+        {
+          "task_id": "dbff022c",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "da515329",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "dfadab01",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "8b9c3697",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "a25697e4",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "a25697e4",
+          "test_index": 1,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "b5ca7ac4",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "8f215267",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "aa4ec2a5",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        }
+      ]
+    },
+    "length_aware_baseline": {
+      "test_outputs": 9,
+      "pass1": 0.2222222222222222,
+      "pass2": 0.2222222222222222,
+      "per_output": [
+        {
+          "task_id": "dbff022c",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "da515329",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "dfadab01",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "8b9c3697",
+          "test_index": 0,
+          "pass1": 1,
+          "pass2": 1
+        },
+        {
+          "task_id": "a25697e4",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "a25697e4",
+          "test_index": 1,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "b5ca7ac4",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "8f215267",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "aa4ec2a5",
+          "test_index": 0,
+          "pass1": 1,
+          "pass2": 1
+        }
+      ]
+    }
+  }
+}

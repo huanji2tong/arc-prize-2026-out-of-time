@@ -1,0 +1,275 @@
+{
+  "tasks": 8,
+  "test_outputs": 9,
+  "scope": "Reused 8-task development panel with at least 3 demonstrations; no untouched confirmation claim",
+  "correct": {
+    "all_outputs_baseline": 1,
+    "after_first_baseline": 0,
+    "final_output_baseline": 0
+  },
+  "first_correct": {
+    "all_outputs_baseline": 0,
+    "after_first_baseline": 0,
+    "final_output_baseline": 0
+  },
+  "gains": [],
+  "losses": [],
+  "delta": 0.0,
+  "task_bootstrap_ci95": [
+    0.0,
+    0.0
+  ],
+  "bootstrap_note": "Conditional on this small reused panel; identical outcomes do not establish population equivalence",
+  "timings": {
+    "all_outputs": {
+      "training_worker_seconds": 2007.9085896015167,
+      "inference_worker_seconds": 1424.1104423999786,
+      "total_worker_seconds": 3432.850168466568,
+      "inference_over_185_seconds": 0,
+      "steps": [
+        128,
+        128,
+        128,
+        128,
+        128,
+        128,
+        128,
+        128
+      ]
+    },
+    "after_first": {
+      "training_worker_seconds": 1988.8167164325714,
+      "inference_worker_seconds": 1442.0637271404266,
+      "total_worker_seconds": 3431.7122840881348,
+      "inference_over_185_seconds": 0,
+      "steps": [
+        128,
+        128,
+        128,
+        128,
+        128,
+        128,
+        128,
+        128
+      ]
+    },
+    "final_output": {
+      "training_worker_seconds": 1989.0060830116272,
+      "inference_worker_seconds": 1401.2333331108093,
+      "total_worker_seconds": 3391.0801861286163,
+      "inference_over_185_seconds": 0,
+      "steps": [
+        128,
+        128,
+        128,
+        128,
+        128,
+        128,
+        128,
+        128
+      ]
+    }
+  },
+  "candidate_to_control_time_ratio": 0.988159818016237,
+  "candidate_oracle": {
+    "all_outputs": 1,
+    "after_first": 0,
+    "final_output": 0
+  },
+  "unique_candidate_grids": {
+    "all_outputs": 14,
+    "after_first": 13,
+    "final_output": 15
+  },
+  "incomplete": [],
+  "independent_selection_and_metric_replay": true,
+  "source_matches": true,
+  "training_inputs_match": true,
+  "weight_updates_verified": true,
+  "decision": "no_positive_primary_effect",
+  "metrics": {
+    "all_outputs_baseline": {
+      "test_outputs": 9,
+      "pass1": 0.0,
+      "pass2": 0.1111111111111111,
+      "per_output": [
+        {
+          "task_id": "dbff022c",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "da515329",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "dfadab01",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 1
+        },
+        {
+          "task_id": "8b9c3697",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "a25697e4",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "a25697e4",
+          "test_index": 1,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "b5ca7ac4",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "8f215267",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "aa4ec2a5",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        }
+      ]
+    },
+    "after_first_baseline": {
+      "test_outputs": 9,
+      "pass1": 0.0,
+      "pass2": 0.0,
+      "per_output": [
+        {
+          "task_id": "dbff022c",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "da515329",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "dfadab01",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "8b9c3697",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "a25697e4",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "a25697e4",
+          "test_index": 1,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "b5ca7ac4",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "8f215267",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "aa4ec2a5",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        }
+      ]
+    },
+    "final_output_baseline": {
+      "test_outputs": 9,
+      "pass1": 0.0,
+      "pass2": 0.0,
+      "per_output": [
+        {
+          "task_id": "dbff022c",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "da515329",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "dfadab01",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "8b9c3697",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "a25697e4",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "a25697e4",
+          "test_index": 1,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "b5ca7ac4",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "8f215267",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "aa4ec2a5",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        }
+      ]
+    }
+  }
+}

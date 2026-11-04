@@ -1,0 +1,100 @@
+{
+  "task_id": "5dbc8537",
+  "train_seconds": 105.9562,
+  "training_steps": 128,
+  "arms": {
+    "control": {
+      "seconds": 120.7722897529602,
+      "requested_seconds": 360,
+      "batch_count": 8,
+      "total_batches": 8,
+      "batches": [
+        {
+          "batch": 0,
+          "seconds": 23.875931978225708,
+          "view_keys": [
+            "5dbc8537_0.permute4150723698.ex10",
+            "5dbc8537_0.permute6720984531.ex10",
+            "5dbc8537_0.rot90.rot90.permute7931086254.ex01",
+            "5dbc8537_0.rot90.rot90.permute9302675184.ex01"
+          ]
+        },
+        {
+          "batch": 1,
+          "seconds": 16.676119804382324,
+          "view_keys": [
+            "5dbc8537_0.rot90.permute1258796043.ex01",
+            "5dbc8537_0.rot90.permute5386701942.ex10",
+            "5dbc8537_0.rot90.rot90.rot90.permute2908315674.ex01",
+            "5dbc8537_0.rot90.rot90.rot90.permute8579032416.ex01"
+          ]
+        },
+        {
+          "batch": 2,
+          "seconds": 9.666059255599976,
+          "view_keys": [
+            "5dbc8537_1.permute1602397845.ex10",
+            "5dbc8537_1.permute6827490351.ex10",
+            "5dbc8537_1.rot90.rot90.permute9180254367.ex01",
+            "5dbc8537_1.rot90.rot90.permute9368452107.ex10"
+          ]
+        },
+        {
+          "batch": 3,
+          "seconds": 15.472497940063477,
+          "view_keys": [
+            "5dbc8537_1.rot90.permute5436201789.ex01",
+            "5dbc8537_1.rot90.permute8024967315.ex01",
+            "5dbc8537_1.rot90.rot90.rot90.permute0986123745.ex01",
+            "5dbc8537_1.rot90.rot90.rot90.permute7068392154.ex10"
+          ]
+        },
+        {
+          "batch": 4,
+          "seconds": 18.17656660079956,
+          "view_keys": [
+            "5dbc8537_0.transpose.permute4950812673.ex01",
+            "5dbc8537_0.transpose.permute9316478025.ex10",
+            "5dbc8537_0.transpose.rot90.rot90.permute4281673590.ex01",
+            "5dbc8537_0.transpose.rot90.rot90.permute7284135096.ex01"
+          ]
+        },
+        {
+          "batch": 5,
+          "seconds": 12.864715576171875,
+          "view_keys": [
+            "5dbc8537_0.transpose.rot90.permute1654278039.ex01",
+            "5dbc8537_0.transpose.rot90.permute3170468295.ex10",
+            "5dbc8537_0.transpose.rot90.rot90.rot90.permute4965803712.ex10",
+            "5dbc8537_0.transpose.rot90.rot90.rot90.permute7568409321.ex10"
+          ]
+        },
+        {
+          "batch": 6,
+          "seconds": 11.7320237159729,
+          "view_keys": [
+            "5dbc8537_1.transpose.permute5980213764.ex10",
+            "5dbc8537_1.transpose.permute6703249158.ex01",
+            "5dbc8537_1.transpose.rot90.rot90.permute4907281356.ex01",
+            "5dbc8537_1.transpose.rot90.rot90.permute7562830149.ex10"
+          ]
+        },
+        {
+          "batch": 7,
+          "seconds": 12.308054447174072,
+          "view_keys": [
+            "5dbc8537_1.transpose.rot90.permute7613284905.ex10",
+            "5dbc8537_1.transpose.rot90.permute7690351428.ex01",
+            "5dbc8537_1.transpose.rot90.rot90.rot90.permute6142358709.ex10",
+            "5dbc8537_1.transpose.rot90.rot90.rot90.permute6150492378.ex01"
+          ]
+        }
+      ],
+      "sequence_probability_floor": 0.2,
+      "global_budget_truncated": false
+    }
+  },
+  "arm_order": [
+    "control"
+  ]
+}

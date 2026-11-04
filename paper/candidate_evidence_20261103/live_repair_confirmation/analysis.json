@@ -1,0 +1,1500 @@
+{
+  "tasks": 24,
+  "test_outputs": 35,
+  "correct": {
+    "control_baseline": 4,
+    "repair_baseline": 4,
+    "repair_mean_original": 4,
+    "repair_risk_original": 5,
+    "repair_mean_repair": 4,
+    "repair_risk_repair": 5
+  },
+  "first_correct": {
+    "control_baseline": 4,
+    "repair_baseline": 4,
+    "repair_mean_original": 4,
+    "repair_risk_original": 4,
+    "repair_mean_repair": 4,
+    "repair_risk_repair": 4
+  },
+  "gains": [
+    "8f3a5a89_0"
+  ],
+  "losses": [],
+  "paired_delta": 0.02857142857142857,
+  "paired_task_bootstrap_ci95": [
+    0.0,
+    0.09375
+  ],
+  "timings": {
+    "control": {
+      "total_worker_seconds": 6034.4256954193115,
+      "tasks_over_365_seconds": 2,
+      "global_truncations": 0
+    },
+    "repair": {
+      "total_worker_seconds": 5181.8575875759125,
+      "tasks_over_365_seconds": 0,
+      "global_truncations": 0
+    }
+  },
+  "raw_oracle": {
+    "control": 7,
+    "repair": 7
+  },
+  "repair_expanded_oracle": 7,
+  "proposals": 76,
+  "evaluated_repairs": 76,
+  "independent_metric_replay_matches": true,
+  "decision": "promising_requires_replication",
+  "scope": "Prospective test of the fixed S4 rule on project-unused tasks; not pretraining-data independence",
+  "metrics": {
+    "control_baseline": {
+      "test_outputs": 35,
+      "pass1": 0.11428571428571428,
+      "pass2": 0.11428571428571428,
+      "per_output": [
+        {
+          "task_id": "e376de54",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "8f3a5a89",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "a32d8b75",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "a32d8b75",
+          "test_index": 1,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "3dc255db",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "a6f40cea",
+          "test_index": 0,
+          "pass1": 1,
+          "pass2": 1
+        },
+        {
+          "task_id": "35ab12c3",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "62593bfd",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "62593bfd",
+          "test_index": 1,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "6e4f6532",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "6e4f6532",
+          "test_index": 1,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "9bbf930d",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "136b0064",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "4c7dc4dd",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "4c7dc4dd",
+          "test_index": 1,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "b0039139",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "b0039139",
+          "test_index": 1,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "7b5033c1",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "20270e3b",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "20270e3b",
+          "test_index": 1,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "21897d95",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "21897d95",
+          "test_index": 1,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "6ffbe589",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "e12f9a14",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "e12f9a14",
+          "test_index": 1,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "64efde09",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "7ed72f31",
+          "test_index": 0,
+          "pass1": 1,
+          "pass2": 1
+        },
+        {
+          "task_id": "7ed72f31",
+          "test_index": 1,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "4c416de3",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "16b78196",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "36a08778",
+          "test_index": 0,
+          "pass1": 1,
+          "pass2": 1
+        },
+        {
+          "task_id": "36a08778",
+          "test_index": 1,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "e8686506",
+          "test_index": 0,
+          "pass1": 1,
+          "pass2": 1
+        },
+        {
+          "task_id": "65b59efc",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "65b59efc",
+          "test_index": 1,
+          "pass1": 0,
+          "pass2": 0
+        }
+      ]
+    },
+    "repair_baseline": {
+      "test_outputs": 35,
+      "pass1": 0.11428571428571428,
+      "pass2": 0.11428571428571428,
+      "per_output": [
+        {
+          "task_id": "e376de54",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "8f3a5a89",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "a32d8b75",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "a32d8b75",
+          "test_index": 1,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "3dc255db",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "a6f40cea",
+          "test_index": 0,
+          "pass1": 1,
+          "pass2": 1
+        },
+        {
+          "task_id": "35ab12c3",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "62593bfd",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "62593bfd",
+          "test_index": 1,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "6e4f6532",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "6e4f6532",
+          "test_index": 1,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "9bbf930d",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "136b0064",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "4c7dc4dd",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "4c7dc4dd",
+          "test_index": 1,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "b0039139",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "b0039139",
+          "test_index": 1,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "7b5033c1",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "20270e3b",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "20270e3b",
+          "test_index": 1,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "21897d95",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "21897d95",
+          "test_index": 1,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "6ffbe589",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "e12f9a14",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "e12f9a14",
+          "test_index": 1,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "64efde09",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "7ed72f31",
+          "test_index": 0,
+          "pass1": 1,
+          "pass2": 1
+        },
+        {
+          "task_id": "7ed72f31",
+          "test_index": 1,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "4c416de3",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "16b78196",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "36a08778",
+          "test_index": 0,
+          "pass1": 1,
+          "pass2": 1
+        },
+        {
+          "task_id": "36a08778",
+          "test_index": 1,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "e8686506",
+          "test_index": 0,
+          "pass1": 1,
+          "pass2": 1
+        },
+        {
+          "task_id": "65b59efc",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "65b59efc",
+          "test_index": 1,
+          "pass1": 0,
+          "pass2": 0
+        }
+      ]
+    },
+    "repair_mean_original": {
+      "test_outputs": 35,
+      "pass1": 0.11428571428571428,
+      "pass2": 0.11428571428571428,
+      "per_output": [
+        {
+          "task_id": "e376de54",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "8f3a5a89",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "a32d8b75",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "a32d8b75",
+          "test_index": 1,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "3dc255db",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "a6f40cea",
+          "test_index": 0,
+          "pass1": 1,
+          "pass2": 1
+        },
+        {
+          "task_id": "35ab12c3",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "62593bfd",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "62593bfd",
+          "test_index": 1,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "6e4f6532",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "6e4f6532",
+          "test_index": 1,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "9bbf930d",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "136b0064",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "4c7dc4dd",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "4c7dc4dd",
+          "test_index": 1,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "b0039139",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "b0039139",
+          "test_index": 1,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "7b5033c1",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "20270e3b",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "20270e3b",
+          "test_index": 1,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "21897d95",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "21897d95",
+          "test_index": 1,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "6ffbe589",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "e12f9a14",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "e12f9a14",
+          "test_index": 1,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "64efde09",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "7ed72f31",
+          "test_index": 0,
+          "pass1": 1,
+          "pass2": 1
+        },
+        {
+          "task_id": "7ed72f31",
+          "test_index": 1,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "4c416de3",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "16b78196",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "36a08778",
+          "test_index": 0,
+          "pass1": 1,
+          "pass2": 1
+        },
+        {
+          "task_id": "36a08778",
+          "test_index": 1,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "e8686506",
+          "test_index": 0,
+          "pass1": 1,
+          "pass2": 1
+        },
+        {
+          "task_id": "65b59efc",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "65b59efc",
+          "test_index": 1,
+          "pass1": 0,
+          "pass2": 0
+        }
+      ]
+    },
+    "repair_risk_original": {
+      "test_outputs": 35,
+      "pass1": 0.11428571428571428,
+      "pass2": 0.14285714285714285,
+      "per_output": [
+        {
+          "task_id": "e376de54",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "8f3a5a89",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 1
+        },
+        {
+          "task_id": "a32d8b75",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "a32d8b75",
+          "test_index": 1,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "3dc255db",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "a6f40cea",
+          "test_index": 0,
+          "pass1": 1,
+          "pass2": 1
+        },
+        {
+          "task_id": "35ab12c3",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "62593bfd",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "62593bfd",
+          "test_index": 1,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "6e4f6532",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "6e4f6532",
+          "test_index": 1,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "9bbf930d",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "136b0064",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "4c7dc4dd",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "4c7dc4dd",
+          "test_index": 1,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "b0039139",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "b0039139",
+          "test_index": 1,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "7b5033c1",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "20270e3b",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "20270e3b",
+          "test_index": 1,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "21897d95",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "21897d95",
+          "test_index": 1,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "6ffbe589",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "e12f9a14",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "e12f9a14",
+          "test_index": 1,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "64efde09",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "7ed72f31",
+          "test_index": 0,
+          "pass1": 1,
+          "pass2": 1
+        },
+        {
+          "task_id": "7ed72f31",
+          "test_index": 1,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "4c416de3",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "16b78196",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "36a08778",
+          "test_index": 0,
+          "pass1": 1,
+          "pass2": 1
+        },
+        {
+          "task_id": "36a08778",
+          "test_index": 1,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "e8686506",
+          "test_index": 0,
+          "pass1": 1,
+          "pass2": 1
+        },
+        {
+          "task_id": "65b59efc",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "65b59efc",
+          "test_index": 1,
+          "pass1": 0,
+          "pass2": 0
+        }
+      ]
+    },
+    "repair_mean_repair": {
+      "test_outputs": 35,
+      "pass1": 0.11428571428571428,
+      "pass2": 0.11428571428571428,
+      "per_output": [
+        {
+          "task_id": "e376de54",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "8f3a5a89",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "a32d8b75",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "a32d8b75",
+          "test_index": 1,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "3dc255db",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "a6f40cea",
+          "test_index": 0,
+          "pass1": 1,
+          "pass2": 1
+        },
+        {
+          "task_id": "35ab12c3",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "62593bfd",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "62593bfd",
+          "test_index": 1,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "6e4f6532",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "6e4f6532",
+          "test_index": 1,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "9bbf930d",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "136b0064",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "4c7dc4dd",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "4c7dc4dd",
+          "test_index": 1,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "b0039139",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "b0039139",
+          "test_index": 1,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "7b5033c1",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "20270e3b",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "20270e3b",
+          "test_index": 1,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "21897d95",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "21897d95",
+          "test_index": 1,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "6ffbe589",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "e12f9a14",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "e12f9a14",
+          "test_index": 1,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "64efde09",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "7ed72f31",
+          "test_index": 0,
+          "pass1": 1,
+          "pass2": 1
+        },
+        {
+          "task_id": "7ed72f31",
+          "test_index": 1,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "4c416de3",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "16b78196",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "36a08778",
+          "test_index": 0,
+          "pass1": 1,
+          "pass2": 1
+        },
+        {
+          "task_id": "36a08778",
+          "test_index": 1,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "e8686506",
+          "test_index": 0,
+          "pass1": 1,
+          "pass2": 1
+        },
+        {
+          "task_id": "65b59efc",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "65b59efc",
+          "test_index": 1,
+          "pass1": 0,
+          "pass2": 0
+        }
+      ]
+    },
+    "repair_risk_repair": {
+      "test_outputs": 35,
+      "pass1": 0.11428571428571428,
+      "pass2": 0.14285714285714285,
+      "per_output": [
+        {
+          "task_id": "e376de54",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "8f3a5a89",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 1
+        },
+        {
+          "task_id": "a32d8b75",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "a32d8b75",
+          "test_index": 1,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "3dc255db",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "a6f40cea",
+          "test_index": 0,
+          "pass1": 1,
+          "pass2": 1
+        },
+        {
+          "task_id": "35ab12c3",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "62593bfd",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "62593bfd",
+          "test_index": 1,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "6e4f6532",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "6e4f6532",
+          "test_index": 1,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "9bbf930d",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "136b0064",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "4c7dc4dd",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "4c7dc4dd",
+          "test_index": 1,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "b0039139",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "b0039139",
+          "test_index": 1,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "7b5033c1",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "20270e3b",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "20270e3b",
+          "test_index": 1,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "21897d95",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "21897d95",
+          "test_index": 1,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "6ffbe589",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "e12f9a14",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "e12f9a14",
+          "test_index": 1,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "64efde09",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "7ed72f31",
+          "test_index": 0,
+          "pass1": 1,
+          "pass2": 1
+        },
+        {
+          "task_id": "7ed72f31",
+          "test_index": 1,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "4c416de3",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "16b78196",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "36a08778",
+          "test_index": 0,
+          "pass1": 1,
+          "pass2": 1
+        },
+        {
+          "task_id": "36a08778",
+          "test_index": 1,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "e8686506",
+          "test_index": 0,
+          "pass1": 1,
+          "pass2": 1
+        },
+        {
+          "task_id": "65b59efc",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "65b59efc",
+          "test_index": 1,
+          "pass1": 0,
+          "pass2": 0
+        }
+      ]
+    }
+  },
+  "outputs_replayed": 35,
+  "score_records": {
+    "original": 153,
+    "repair": 76
+  },
+  "selection_replay_matches": true,
+  "paired_effects": {
+    "primary": {
+      "candidate": "repair_risk_repair",
+      "reference": "control_baseline",
+      "candidate_correct": 5,
+      "reference_correct": 4,
+      "outputs": 35,
+      "tasks": 24,
+      "gains": [
+        "8f3a5a89_0"
+      ],
+      "losses": [],
+      "net_correct": 1,
+      "delta": 0.02857142857142857,
+      "task_bootstrap_ci95": [
+        0.0,
+        0.09375
+      ],
+      "bootstrap_replicates": 5000,
+      "seed": 20261103,
+      "discordant_tasks": 1,
+      "interval_informative": true,
+      "interval_note": "Descriptive task bootstrap; a degenerate interval on identical observed outcomes does not prove population equivalence."
+    },
+    "generation_budget": {
+      "candidate": "repair_baseline",
+      "reference": "control_baseline",
+      "candidate_correct": 4,
+      "reference_correct": 4,
+      "outputs": 35,
+      "tasks": 24,
+      "gains": [],
+      "losses": [],
+      "net_correct": 0,
+      "delta": 0.0,
+      "task_bootstrap_ci95": [
+        0.0,
+        0.0
+      ],
+      "bootstrap_replicates": 5000,
+      "seed": 20261103,
+      "discordant_tasks": 0,
+      "interval_informative": false,
+      "interval_note": "Descriptive task bootstrap; a degenerate interval on identical observed outcomes does not prove population equivalence."
+    },
+    "repair_with_mean": {
+      "candidate": "repair_mean_repair",
+      "reference": "repair_mean_original",
+      "candidate_correct": 4,
+      "reference_correct": 4,
+      "outputs": 35,
+      "tasks": 24,
+      "gains": [],
+      "losses": [],
+      "net_correct": 0,
+      "delta": 0.0,
+      "task_bootstrap_ci95": [
+        0.0,
+        0.0
+      ],
+      "bootstrap_replicates": 5000,
+      "seed": 20261103,
+      "discordant_tasks": 0,
+      "interval_informative": false,
+      "interval_note": "Descriptive task bootstrap; a degenerate interval on identical observed outcomes does not prove population equivalence."
+    },
+    "repair_with_risk": {
+      "candidate": "repair_risk_repair",
+      "reference": "repair_risk_original",
+      "candidate_correct": 5,
+      "reference_correct": 5,
+      "outputs": 35,
+      "tasks": 24,
+      "gains": [],
+      "losses": [],
+      "net_correct": 0,
+      "delta": 0.0,
+      "task_bootstrap_ci95": [
+        0.0,
+        0.0
+      ],
+      "bootstrap_replicates": 5000,
+      "seed": 20261103,
+      "discordant_tasks": 0,
+      "interval_informative": false,
+      "interval_note": "Descriptive task bootstrap; a degenerate interval on identical observed outcomes does not prove population equivalence."
+    },
+    "risk_without_repair": {
+      "candidate": "repair_risk_original",
+      "reference": "repair_mean_original",
+      "candidate_correct": 5,
+      "reference_correct": 4,
+      "outputs": 35,
+      "tasks": 24,
+      "gains": [
+        "8f3a5a89_0"
+      ],
+      "losses": [],
+      "net_correct": 1,
+      "delta": 0.02857142857142857,
+      "task_bootstrap_ci95": [
+        0.0,
+        0.09375
+      ],
+      "bootstrap_replicates": 5000,
+      "seed": 20261103,
+      "discordant_tasks": 1,
+      "interval_informative": true,
+      "interval_note": "Descriptive task bootstrap; a degenerate interval on identical observed outcomes does not prove population equivalence."
+    },
+    "risk_with_repair": {
+      "candidate": "repair_risk_repair",
+      "reference": "repair_mean_repair",
+      "candidate_correct": 5,
+      "reference_correct": 4,
+      "outputs": 35,
+      "tasks": 24,
+      "gains": [
+        "8f3a5a89_0"
+      ],
+      "losses": [],
+      "net_correct": 1,
+      "delta": 0.02857142857142857,
+      "task_bootstrap_ci95": [
+        0.0,
+        0.09375
+      ],
+      "bootstrap_replicates": 5000,
+      "seed": 20261103,
+      "discordant_tasks": 1,
+      "interval_informative": true,
+      "interval_note": "Descriptive task bootstrap; a degenerate interval on identical observed outcomes does not prove population equivalence."
+    }
+  },
+  "repair_to_control_worker_time_ratio": 0.8587159489774516,
+  "actual_time_caveat": false,
+  "global_budget_truncated": false,
+  "pinned_cloud_source_matches": true,
+  "rule_source_hashes_match": true
+}

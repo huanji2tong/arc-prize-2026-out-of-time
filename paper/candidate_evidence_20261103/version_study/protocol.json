@@ -1,0 +1,42 @@
+{
+  "objective": "Research paper first; modest score exploration with hypothesis-driven versions",
+  "authorization": "User explicitly authorized several submissions to improve the method and support the paper, 2026-11-03",
+  "max_competition_submissions": 3,
+  "max_normal_gpu_hours": 1.5,
+  "max_normal_gpu_hours_each": 0.5,
+  "normal_internal_seconds": 1800,
+  "hidden_internal_seconds": 43200,
+  "api_timeout_seconds": 43200,
+  "stop_after": "2026-11-06T20:00:00+08:00",
+  "source_policy": "Private notebooks, internet disabled, upstream attribution retained",
+  "keep_holdout_protocol_frozen": true,
+  "submission_policy": "One technically validated fixed version per hypothesis; persist POST intent and reconcile ambiguous responses",
+  "score_interpretation": "Post-deadline scores; public shared-pool comparisons provide paired evidence, leaderboard executions are descriptive",
+  "versions": [
+    {
+      "key": "B0",
+      "slug": "arc2-paper-b0-control",
+      "title": "ARC2 Paper B0 Matched Control",
+      "selector": "baseline",
+      "role": "Matched control; not a new algorithm claim",
+      "question": "What is the reference score under this fixed generator and budget?"
+    },
+    {
+      "key": "S1",
+      "slug": "arc2-paper-s1-likelihood",
+      "title": "ARC2 Paper S1 Likelihood Ablation",
+      "selector": "likelihood_only",
+      "role": "Frequency-term ablation",
+      "question": "Does removing candidate occurrence counts improve selection?"
+    },
+    {
+      "key": "S2",
+      "slug": "arc2-paper-s2-complementary",
+      "title": "ARC2 Paper S2 Complementary Selection",
+      "selector": "anchored_soft_cover",
+      "role": "Candidate method under evaluation, no accuracy claim in advance",
+      "question": "Does complementary second-guess coverage help while retaining the first answer?"
+    }
+  ],
+  "overlap_public_checks_with_scoring": true
+}

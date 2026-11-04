@@ -1,0 +1,194 @@
+{
+  "tasks": 8,
+  "test_outputs": 9,
+  "scope": "Reused 8-task development panel with at least 3 demonstrations; no untouched confirmation claim",
+  "correct": {
+    "all_outputs_baseline": 0,
+    "context_weighted_baseline": 0
+  },
+  "first_correct": {
+    "all_outputs_baseline": 0,
+    "context_weighted_baseline": 0
+  },
+  "gains": [],
+  "losses": [],
+  "delta": 0.0,
+  "task_bootstrap_ci95": [
+    0.0,
+    0.0
+  ],
+  "bootstrap_note": "Conditional on this small reused panel; identical outcomes do not establish population equivalence",
+  "timings": {
+    "all_outputs": {
+      "training_worker_seconds": 2003.2751624584198,
+      "inference_worker_seconds": 1404.2701938152313,
+      "total_worker_seconds": 3408.3726794719696,
+      "inference_over_185_seconds": 0,
+      "steps": [
+        128,
+        128,
+        128,
+        128,
+        128,
+        128,
+        128,
+        128
+      ]
+    },
+    "context_weighted": {
+      "training_worker_seconds": 1991.0808899402618,
+      "inference_worker_seconds": 1401.180870771408,
+      "total_worker_seconds": 3393.09392619133,
+      "inference_over_185_seconds": 0,
+      "steps": [
+        128,
+        128,
+        128,
+        128,
+        128,
+        128,
+        128,
+        128
+      ]
+    }
+  },
+  "candidate_to_control_time_ratio": 0.9955172879501526,
+  "candidate_oracle": {
+    "all_outputs": 0,
+    "context_weighted": 0
+  },
+  "unique_candidate_grids": {
+    "all_outputs": 12,
+    "context_weighted": 10
+  },
+  "incomplete": [],
+  "independent_selection_and_metric_replay": true,
+  "source_matches": true,
+  "training_inputs_match": true,
+  "weight_updates_verified": true,
+  "decision": "no_positive_primary_effect",
+  "metrics": {
+    "all_outputs_baseline": {
+      "test_outputs": 9,
+      "pass1": 0.0,
+      "pass2": 0.0,
+      "per_output": [
+        {
+          "task_id": "dbff022c",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "da515329",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "dfadab01",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "8b9c3697",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "a25697e4",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "a25697e4",
+          "test_index": 1,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "b5ca7ac4",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "8f215267",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "aa4ec2a5",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        }
+      ]
+    },
+    "context_weighted_baseline": {
+      "test_outputs": 9,
+      "pass1": 0.0,
+      "pass2": 0.0,
+      "per_output": [
+        {
+          "task_id": "dbff022c",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "da515329",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "dfadab01",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "8b9c3697",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "a25697e4",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "a25697e4",
+          "test_index": 1,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "b5ca7ac4",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "8f215267",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        },
+        {
+          "task_id": "aa4ec2a5",
+          "test_index": 0,
+          "pass1": 0,
+          "pass2": 0
+        }
+      ]
+    }
+  }
+}

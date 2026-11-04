@@ -1,0 +1,2887 @@
+{
+  "trace": "paper/candidate_evidence_20261103/holdout_run/arc_artifacts/candidate_trace.jsonl.gz",
+  "trace_sha256": "7a6dad8454147e94ca763acce6262341f778e6e4593bb276f0550a3e1c6884b4",
+  "tasks": 48,
+  "outputs": 68,
+  "oracle_correct": 18,
+  "metrics": {
+    "baseline": {
+      "pass1_correct": 13,
+      "pass2_correct": 14,
+      "gains": [],
+      "losses": [],
+      "paired_task_bootstrap": {
+        "delta": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "tasks": 48,
+        "replicates": 5000
+      }
+    },
+    "likelihood_only": {
+      "pass1_correct": 11,
+      "pass2_correct": 14,
+      "gains": [],
+      "losses": [],
+      "paired_task_bootstrap": {
+        "delta": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "tasks": 48,
+        "replicates": 5000
+      }
+    },
+    "token_likelihood": {
+      "pass1_correct": 11,
+      "pass2_correct": 14,
+      "gains": [],
+      "losses": [],
+      "paired_task_bootstrap": {
+        "delta": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "tasks": 48,
+        "replicates": 5000
+      }
+    },
+    "family": {
+      "pass1_correct": 13,
+      "pass2_correct": 14,
+      "gains": [],
+      "losses": [],
+      "paired_task_bootstrap": {
+        "delta": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "tasks": 48,
+        "replicates": 5000
+      }
+    },
+    "anchored_family": {
+      "pass1_correct": 13,
+      "pass2_correct": 14,
+      "gains": [],
+      "losses": [],
+      "paired_task_bootstrap": {
+        "delta": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "tasks": 48,
+        "replicates": 5000
+      }
+    },
+    "anchored_support_cover": {
+      "pass1_correct": 13,
+      "pass2_correct": 14,
+      "gains": [],
+      "losses": [],
+      "paired_task_bootstrap": {
+        "delta": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "tasks": 48,
+        "replicates": 5000
+      }
+    },
+    "anchored_soft_cover": {
+      "pass1_correct": 13,
+      "pass2_correct": 14,
+      "gains": [],
+      "losses": [],
+      "paired_task_bootstrap": {
+        "delta": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "tasks": 48,
+        "replicates": 5000
+      }
+    },
+    "soft_cover": {
+      "pass1_correct": 13,
+      "pass2_correct": 14,
+      "gains": [],
+      "losses": [],
+      "paired_task_bootstrap": {
+        "delta": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "tasks": 48,
+        "replicates": 5000
+      }
+    }
+  },
+  "clone_perturbations": 0,
+  "duplicate_sensitivity": {
+    "baseline": {
+      "changed_pairs": 0,
+      "changed_sets": 0
+    },
+    "likelihood_only": {
+      "changed_pairs": 0,
+      "changed_sets": 0
+    },
+    "token_likelihood": {
+      "changed_pairs": 0,
+      "changed_sets": 0
+    },
+    "family": {
+      "changed_pairs": 0,
+      "changed_sets": 0
+    },
+    "anchored_family": {
+      "changed_pairs": 0,
+      "changed_sets": 0
+    },
+    "anchored_support_cover": {
+      "changed_pairs": 0,
+      "changed_sets": 0
+    },
+    "anchored_soft_cover": {
+      "changed_pairs": 0,
+      "changed_sets": 0
+    },
+    "soft_cover": {
+      "changed_pairs": 0,
+      "changed_sets": 0
+    }
+  },
+  "analysis_seconds": 0.06214845800423063,
+  "per_output": [
+    {
+      "task_output": "0934a4d8_0",
+      "task_id": "0934a4d8",
+      "records": 17,
+      "unique_grids": 12,
+      "oracle": 0,
+      "has_token_counts": true,
+      "baseline": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "likelihood_only": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "token_likelihood": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_support_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      }
+    },
+    {
+      "task_output": "142ca369_0",
+      "task_id": "142ca369",
+      "records": 12,
+      "unique_grids": 8,
+      "oracle": 1,
+      "has_token_counts": true,
+      "baseline": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "likelihood_only": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "token_likelihood": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_support_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      }
+    },
+    {
+      "task_output": "142ca369_1",
+      "task_id": "142ca369",
+      "records": 8,
+      "unique_grids": 5,
+      "oracle": 0,
+      "has_token_counts": true,
+      "baseline": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "likelihood_only": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "token_likelihood": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_support_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      }
+    },
+    {
+      "task_output": "16de56c4_0",
+      "task_id": "16de56c4",
+      "records": 5,
+      "unique_grids": 5,
+      "oracle": 0,
+      "has_token_counts": true,
+      "baseline": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "likelihood_only": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "token_likelihood": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_support_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      }
+    },
+    {
+      "task_output": "16de56c4_1",
+      "task_id": "16de56c4",
+      "records": 7,
+      "unique_grids": 6,
+      "oracle": 0,
+      "has_token_counts": true,
+      "baseline": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "likelihood_only": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "token_likelihood": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_support_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      }
+    },
+    {
+      "task_output": "1818057f_0",
+      "task_id": "1818057f",
+      "records": 16,
+      "unique_grids": 2,
+      "oracle": 1,
+      "has_token_counts": true,
+      "baseline": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "likelihood_only": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "token_likelihood": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "family": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "anchored_family": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "anchored_support_cover": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "anchored_soft_cover": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "soft_cover": {
+        "pass1": 1,
+        "pass2": 1
+      }
+    },
+    {
+      "task_output": "1ae2feb7_0",
+      "task_id": "1ae2feb7",
+      "records": 13,
+      "unique_grids": 10,
+      "oracle": 0,
+      "has_token_counts": true,
+      "baseline": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "likelihood_only": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "token_likelihood": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_support_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      }
+    },
+    {
+      "task_output": "1ae2feb7_1",
+      "task_id": "1ae2feb7",
+      "records": 17,
+      "unique_grids": 6,
+      "oracle": 0,
+      "has_token_counts": true,
+      "baseline": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "likelihood_only": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "token_likelihood": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_support_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      }
+    },
+    {
+      "task_output": "1ae2feb7_2",
+      "task_id": "1ae2feb7",
+      "records": 19,
+      "unique_grids": 6,
+      "oracle": 1,
+      "has_token_counts": true,
+      "baseline": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "likelihood_only": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "token_likelihood": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "family": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "anchored_family": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "anchored_support_cover": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "anchored_soft_cover": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "soft_cover": {
+        "pass1": 1,
+        "pass2": 1
+      }
+    },
+    {
+      "task_output": "269e22fb_0",
+      "task_id": "269e22fb",
+      "records": 7,
+      "unique_grids": 3,
+      "oracle": 0,
+      "has_token_counts": true,
+      "baseline": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "likelihood_only": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "token_likelihood": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_support_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      }
+    },
+    {
+      "task_output": "28a6681f_0",
+      "task_id": "28a6681f",
+      "records": 23,
+      "unique_grids": 11,
+      "oracle": 0,
+      "has_token_counts": true,
+      "baseline": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "likelihood_only": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "token_likelihood": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_support_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      }
+    },
+    {
+      "task_output": "291dc1e1_0",
+      "task_id": "291dc1e1",
+      "records": 1,
+      "unique_grids": 1,
+      "oracle": 0,
+      "has_token_counts": true,
+      "baseline": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "likelihood_only": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "token_likelihood": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_support_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      }
+    },
+    {
+      "task_output": "2ba387bc_0",
+      "task_id": "2ba387bc",
+      "records": 23,
+      "unique_grids": 10,
+      "oracle": 1,
+      "has_token_counts": true,
+      "baseline": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "likelihood_only": {
+        "pass1": 0,
+        "pass2": 1
+      },
+      "token_likelihood": {
+        "pass1": 0,
+        "pass2": 1
+      },
+      "family": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "anchored_family": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "anchored_support_cover": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "anchored_soft_cover": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "soft_cover": {
+        "pass1": 1,
+        "pass2": 1
+      }
+    },
+    {
+      "task_output": "2c181942_0",
+      "task_id": "2c181942",
+      "records": 9,
+      "unique_grids": 9,
+      "oracle": 0,
+      "has_token_counts": true,
+      "baseline": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "likelihood_only": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "token_likelihood": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_support_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      }
+    },
+    {
+      "task_output": "31f7f899_0",
+      "task_id": "31f7f899",
+      "records": 19,
+      "unique_grids": 8,
+      "oracle": 0,
+      "has_token_counts": true,
+      "baseline": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "likelihood_only": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "token_likelihood": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_support_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      }
+    },
+    {
+      "task_output": "332f06d7_0",
+      "task_id": "332f06d7",
+      "records": 18,
+      "unique_grids": 2,
+      "oracle": 0,
+      "has_token_counts": true,
+      "baseline": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "likelihood_only": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "token_likelihood": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_support_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      }
+    },
+    {
+      "task_output": "38007db0_0",
+      "task_id": "38007db0",
+      "records": 16,
+      "unique_grids": 1,
+      "oracle": 1,
+      "has_token_counts": true,
+      "baseline": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "likelihood_only": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "token_likelihood": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "family": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "anchored_family": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "anchored_support_cover": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "anchored_soft_cover": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "soft_cover": {
+        "pass1": 1,
+        "pass2": 1
+      }
+    },
+    {
+      "task_output": "38007db0_1",
+      "task_id": "38007db0",
+      "records": 16,
+      "unique_grids": 1,
+      "oracle": 1,
+      "has_token_counts": true,
+      "baseline": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "likelihood_only": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "token_likelihood": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "family": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "anchored_family": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "anchored_support_cover": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "anchored_soft_cover": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "soft_cover": {
+        "pass1": 1,
+        "pass2": 1
+      }
+    },
+    {
+      "task_output": "409aa875_0",
+      "task_id": "409aa875",
+      "records": 20,
+      "unique_grids": 10,
+      "oracle": 0,
+      "has_token_counts": true,
+      "baseline": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "likelihood_only": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "token_likelihood": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_support_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      }
+    },
+    {
+      "task_output": "446ef5d2_1",
+      "task_id": "446ef5d2",
+      "records": 2,
+      "unique_grids": 1,
+      "oracle": 0,
+      "has_token_counts": true,
+      "baseline": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "likelihood_only": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "token_likelihood": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_support_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      }
+    },
+    {
+      "task_output": "45a5af55_0",
+      "task_id": "45a5af55",
+      "records": 16,
+      "unique_grids": 1,
+      "oracle": 1,
+      "has_token_counts": true,
+      "baseline": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "likelihood_only": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "token_likelihood": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "family": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "anchored_family": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "anchored_support_cover": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "anchored_soft_cover": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "soft_cover": {
+        "pass1": 1,
+        "pass2": 1
+      }
+    },
+    {
+      "task_output": "5545f144_0",
+      "task_id": "5545f144",
+      "records": 16,
+      "unique_grids": 12,
+      "oracle": 0,
+      "has_token_counts": true,
+      "baseline": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "likelihood_only": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "token_likelihood": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_support_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      }
+    },
+    {
+      "task_output": "581f7754_0",
+      "task_id": "581f7754",
+      "records": 3,
+      "unique_grids": 2,
+      "oracle": 0,
+      "has_token_counts": true,
+      "baseline": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "likelihood_only": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "token_likelihood": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_support_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      }
+    },
+    {
+      "task_output": "581f7754_1",
+      "task_id": "581f7754",
+      "records": 6,
+      "unique_grids": 5,
+      "oracle": 0,
+      "has_token_counts": true,
+      "baseline": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "likelihood_only": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "token_likelihood": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_support_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      }
+    },
+    {
+      "task_output": "58490d8a_0",
+      "task_id": "58490d8a",
+      "records": 19,
+      "unique_grids": 9,
+      "oracle": 0,
+      "has_token_counts": true,
+      "baseline": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "likelihood_only": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "token_likelihood": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_support_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      }
+    },
+    {
+      "task_output": "5961cc34_0",
+      "task_id": "5961cc34",
+      "records": 16,
+      "unique_grids": 1,
+      "oracle": 0,
+      "has_token_counts": true,
+      "baseline": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "likelihood_only": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "token_likelihood": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_support_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      }
+    },
+    {
+      "task_output": "67e490f4_0",
+      "task_id": "67e490f4",
+      "records": 7,
+      "unique_grids": 6,
+      "oracle": 0,
+      "has_token_counts": true,
+      "baseline": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "likelihood_only": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "token_likelihood": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_support_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      }
+    },
+    {
+      "task_output": "6e453dd6_0",
+      "task_id": "6e453dd6",
+      "records": 19,
+      "unique_grids": 8,
+      "oracle": 1,
+      "has_token_counts": true,
+      "baseline": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "likelihood_only": {
+        "pass1": 0,
+        "pass2": 1
+      },
+      "token_likelihood": {
+        "pass1": 0,
+        "pass2": 1
+      },
+      "family": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "anchored_family": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "anchored_support_cover": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "anchored_soft_cover": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "soft_cover": {
+        "pass1": 1,
+        "pass2": 1
+      }
+    },
+    {
+      "task_output": "7b3084d4_0",
+      "task_id": "7b3084d4",
+      "records": 16,
+      "unique_grids": 14,
+      "oracle": 0,
+      "has_token_counts": true,
+      "baseline": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "likelihood_only": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "token_likelihood": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_support_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      }
+    },
+    {
+      "task_output": "7b80bb43_0",
+      "task_id": "7b80bb43",
+      "records": 19,
+      "unique_grids": 4,
+      "oracle": 1,
+      "has_token_counts": true,
+      "baseline": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "likelihood_only": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "token_likelihood": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "family": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "anchored_family": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "anchored_support_cover": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "anchored_soft_cover": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "soft_cover": {
+        "pass1": 1,
+        "pass2": 1
+      }
+    },
+    {
+      "task_output": "80a900e0_0",
+      "task_id": "80a900e0",
+      "records": 4,
+      "unique_grids": 3,
+      "oracle": 0,
+      "has_token_counts": true,
+      "baseline": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "likelihood_only": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "token_likelihood": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_support_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      }
+    },
+    {
+      "task_output": "8698868d_0",
+      "task_id": "8698868d",
+      "records": 14,
+      "unique_grids": 10,
+      "oracle": 0,
+      "has_token_counts": true,
+      "baseline": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "likelihood_only": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "token_likelihood": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_support_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      }
+    },
+    {
+      "task_output": "89565ca0_0",
+      "task_id": "89565ca0",
+      "records": 24,
+      "unique_grids": 15,
+      "oracle": 0,
+      "has_token_counts": true,
+      "baseline": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "likelihood_only": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "token_likelihood": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_support_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      }
+    },
+    {
+      "task_output": "9385bd28_0",
+      "task_id": "9385bd28",
+      "records": 8,
+      "unique_grids": 7,
+      "oracle": 0,
+      "has_token_counts": true,
+      "baseline": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "likelihood_only": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "token_likelihood": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_support_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      }
+    },
+    {
+      "task_output": "9385bd28_1",
+      "task_id": "9385bd28",
+      "records": 12,
+      "unique_grids": 9,
+      "oracle": 0,
+      "has_token_counts": true,
+      "baseline": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "likelihood_only": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "token_likelihood": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_support_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      }
+    },
+    {
+      "task_output": "a251c730_0",
+      "task_id": "a251c730",
+      "records": 20,
+      "unique_grids": 9,
+      "oracle": 1,
+      "has_token_counts": true,
+      "baseline": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "likelihood_only": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "token_likelihood": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "family": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "anchored_family": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "anchored_support_cover": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "anchored_soft_cover": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "soft_cover": {
+        "pass1": 1,
+        "pass2": 1
+      }
+    },
+    {
+      "task_output": "abc82100_0",
+      "task_id": "abc82100",
+      "records": 17,
+      "unique_grids": 9,
+      "oracle": 0,
+      "has_token_counts": true,
+      "baseline": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "likelihood_only": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "token_likelihood": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_support_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      }
+    },
+    {
+      "task_output": "b6f77b65_0",
+      "task_id": "b6f77b65",
+      "records": 13,
+      "unique_grids": 7,
+      "oracle": 1,
+      "has_token_counts": true,
+      "baseline": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "likelihood_only": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "token_likelihood": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_support_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      }
+    },
+    {
+      "task_output": "b6f77b65_1",
+      "task_id": "b6f77b65",
+      "records": 17,
+      "unique_grids": 4,
+      "oracle": 1,
+      "has_token_counts": true,
+      "baseline": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "likelihood_only": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "token_likelihood": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "family": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "anchored_family": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "anchored_support_cover": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "anchored_soft_cover": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "soft_cover": {
+        "pass1": 1,
+        "pass2": 1
+      }
+    },
+    {
+      "task_output": "b6f77b65_2",
+      "task_id": "b6f77b65",
+      "records": 11,
+      "unique_grids": 5,
+      "oracle": 1,
+      "has_token_counts": true,
+      "baseline": {
+        "pass1": 0,
+        "pass2": 1
+      },
+      "likelihood_only": {
+        "pass1": 0,
+        "pass2": 1
+      },
+      "token_likelihood": {
+        "pass1": 0,
+        "pass2": 1
+      },
+      "family": {
+        "pass1": 0,
+        "pass2": 1
+      },
+      "anchored_family": {
+        "pass1": 0,
+        "pass2": 1
+      },
+      "anchored_support_cover": {
+        "pass1": 0,
+        "pass2": 1
+      },
+      "anchored_soft_cover": {
+        "pass1": 0,
+        "pass2": 1
+      },
+      "soft_cover": {
+        "pass1": 0,
+        "pass2": 1
+      }
+    },
+    {
+      "task_output": "b99e7126_0",
+      "task_id": "b99e7126",
+      "records": 3,
+      "unique_grids": 2,
+      "oracle": 0,
+      "has_token_counts": true,
+      "baseline": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "likelihood_only": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "token_likelihood": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_support_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      }
+    },
+    {
+      "task_output": "cb2d8a2c_0",
+      "task_id": "cb2d8a2c",
+      "records": 7,
+      "unique_grids": 5,
+      "oracle": 0,
+      "has_token_counts": true,
+      "baseline": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "likelihood_only": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "token_likelihood": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_support_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      }
+    },
+    {
+      "task_output": "d35bdbdc_0",
+      "task_id": "d35bdbdc",
+      "records": 14,
+      "unique_grids": 14,
+      "oracle": 0,
+      "has_token_counts": true,
+      "baseline": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "likelihood_only": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "token_likelihood": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_support_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      }
+    },
+    {
+      "task_output": "d35bdbdc_1",
+      "task_id": "d35bdbdc",
+      "records": 23,
+      "unique_grids": 11,
+      "oracle": 1,
+      "has_token_counts": true,
+      "baseline": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "likelihood_only": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "token_likelihood": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_support_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      }
+    },
+    {
+      "task_output": "d35bdbdc_2",
+      "task_id": "d35bdbdc",
+      "records": 18,
+      "unique_grids": 5,
+      "oracle": 1,
+      "has_token_counts": true,
+      "baseline": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "likelihood_only": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "token_likelihood": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "family": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "anchored_family": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "anchored_support_cover": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "anchored_soft_cover": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "soft_cover": {
+        "pass1": 1,
+        "pass2": 1
+      }
+    },
+    {
+      "task_output": "db0c5428_0",
+      "task_id": "db0c5428",
+      "records": 22,
+      "unique_grids": 5,
+      "oracle": 1,
+      "has_token_counts": true,
+      "baseline": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "likelihood_only": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "token_likelihood": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "family": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "anchored_family": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "anchored_support_cover": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "anchored_soft_cover": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "soft_cover": {
+        "pass1": 1,
+        "pass2": 1
+      }
+    },
+    {
+      "task_output": "db695cfb_0",
+      "task_id": "db695cfb",
+      "records": 14,
+      "unique_grids": 13,
+      "oracle": 0,
+      "has_token_counts": true,
+      "baseline": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "likelihood_only": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "token_likelihood": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_support_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      }
+    },
+    {
+      "task_output": "e87109e9_0",
+      "task_id": "e87109e9",
+      "records": 8,
+      "unique_grids": 7,
+      "oracle": 0,
+      "has_token_counts": true,
+      "baseline": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "likelihood_only": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "token_likelihood": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_support_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      }
+    },
+    {
+      "task_output": "eee78d87_0",
+      "task_id": "eee78d87",
+      "records": 22,
+      "unique_grids": 3,
+      "oracle": 1,
+      "has_token_counts": true,
+      "baseline": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "likelihood_only": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "token_likelihood": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_support_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      }
+    },
+    {
+      "task_output": "fc7cae8d_0",
+      "task_id": "fc7cae8d",
+      "records": 6,
+      "unique_grids": 6,
+      "oracle": 1,
+      "has_token_counts": true,
+      "baseline": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "likelihood_only": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "token_likelihood": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "family": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "anchored_family": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "anchored_support_cover": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "anchored_soft_cover": {
+        "pass1": 1,
+        "pass2": 1
+      },
+      "soft_cover": {
+        "pass1": 1,
+        "pass2": 1
+      }
+    },
+    {
+      "task_output": "271d71e2_0",
+      "task_id": "271d71e2",
+      "records": 0,
+      "unique_grids": 0,
+      "oracle": 0,
+      "has_token_counts": true,
+      "baseline": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "likelihood_only": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "token_likelihood": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_support_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      }
+    },
+    {
+      "task_output": "269e22fb_1",
+      "task_id": "269e22fb",
+      "records": 0,
+      "unique_grids": 0,
+      "oracle": 0,
+      "has_token_counts": true,
+      "baseline": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "likelihood_only": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "token_likelihood": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_support_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      }
+    },
+    {
+      "task_output": "d8e07eb2_0",
+      "task_id": "d8e07eb2",
+      "records": 0,
+      "unique_grids": 0,
+      "oracle": 0,
+      "has_token_counts": true,
+      "baseline": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "likelihood_only": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "token_likelihood": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_support_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      }
+    },
+    {
+      "task_output": "d8e07eb2_1",
+      "task_id": "d8e07eb2",
+      "records": 0,
+      "unique_grids": 0,
+      "oracle": 0,
+      "has_token_counts": true,
+      "baseline": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "likelihood_only": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "token_likelihood": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_support_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      }
+    },
+    {
+      "task_output": "b10624e5_0",
+      "task_id": "b10624e5",
+      "records": 0,
+      "unique_grids": 0,
+      "oracle": 0,
+      "has_token_counts": true,
+      "baseline": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "likelihood_only": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "token_likelihood": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_support_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      }
+    },
+    {
+      "task_output": "5dbc8537_0",
+      "task_id": "5dbc8537",
+      "records": 0,
+      "unique_grids": 0,
+      "oracle": 0,
+      "has_token_counts": true,
+      "baseline": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "likelihood_only": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "token_likelihood": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_support_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      }
+    },
+    {
+      "task_output": "5dbc8537_1",
+      "task_id": "5dbc8537",
+      "records": 0,
+      "unique_grids": 0,
+      "oracle": 0,
+      "has_token_counts": true,
+      "baseline": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "likelihood_only": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "token_likelihood": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_support_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      }
+    },
+    {
+      "task_output": "195c6913_0",
+      "task_id": "195c6913",
+      "records": 0,
+      "unique_grids": 0,
+      "oracle": 0,
+      "has_token_counts": true,
+      "baseline": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "likelihood_only": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "token_likelihood": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_support_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      }
+    },
+    {
+      "task_output": "195c6913_1",
+      "task_id": "195c6913",
+      "records": 0,
+      "unique_grids": 0,
+      "oracle": 0,
+      "has_token_counts": true,
+      "baseline": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "likelihood_only": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "token_likelihood": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_support_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      }
+    },
+    {
+      "task_output": "abc82100_1",
+      "task_id": "abc82100",
+      "records": 0,
+      "unique_grids": 0,
+      "oracle": 0,
+      "has_token_counts": true,
+      "baseline": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "likelihood_only": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "token_likelihood": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_support_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      }
+    },
+    {
+      "task_output": "8b7bacbf_0",
+      "task_id": "8b7bacbf",
+      "records": 0,
+      "unique_grids": 0,
+      "oracle": 0,
+      "has_token_counts": true,
+      "baseline": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "likelihood_only": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "token_likelihood": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_support_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      }
+    },
+    {
+      "task_output": "8b7bacbf_1",
+      "task_id": "8b7bacbf",
+      "records": 0,
+      "unique_grids": 0,
+      "oracle": 0,
+      "has_token_counts": true,
+      "baseline": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "likelihood_only": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "token_likelihood": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_support_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      }
+    },
+    {
+      "task_output": "de809cff_0",
+      "task_id": "de809cff",
+      "records": 0,
+      "unique_grids": 0,
+      "oracle": 0,
+      "has_token_counts": true,
+      "baseline": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "likelihood_only": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "token_likelihood": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_support_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      }
+    },
+    {
+      "task_output": "9aaea919_0",
+      "task_id": "9aaea919",
+      "records": 0,
+      "unique_grids": 0,
+      "oracle": 0,
+      "has_token_counts": true,
+      "baseline": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "likelihood_only": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "token_likelihood": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_support_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      }
+    },
+    {
+      "task_output": "446ef5d2_0",
+      "task_id": "446ef5d2",
+      "records": 0,
+      "unique_grids": 0,
+      "oracle": 0,
+      "has_token_counts": true,
+      "baseline": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "likelihood_only": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "token_likelihood": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_support_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      }
+    },
+    {
+      "task_output": "13e47133_0",
+      "task_id": "13e47133",
+      "records": 0,
+      "unique_grids": 0,
+      "oracle": 0,
+      "has_token_counts": true,
+      "baseline": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "likelihood_only": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "token_likelihood": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_support_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      }
+    },
+    {
+      "task_output": "13e47133_1",
+      "task_id": "13e47133",
+      "records": 0,
+      "unique_grids": 0,
+      "oracle": 0,
+      "has_token_counts": true,
+      "baseline": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "likelihood_only": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "token_likelihood": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_support_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      }
+    },
+    {
+      "task_output": "cb2d8a2c_1",
+      "task_id": "cb2d8a2c",
+      "records": 0,
+      "unique_grids": 0,
+      "oracle": 0,
+      "has_token_counts": true,
+      "baseline": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "likelihood_only": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "token_likelihood": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_family": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_support_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "anchored_soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      },
+      "soft_cover": {
+        "pass1": 0,
+        "pass2": 0
+      }
+    }
+  ]
+}

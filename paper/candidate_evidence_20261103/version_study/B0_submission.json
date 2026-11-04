@@ -1,0 +1,15 @@
+{
+  "key": "B0",
+  "description": "ARC2 paper B0 baseline 20261103 pinned-v1",
+  "competition": "arc-prize-2026-arc-agi-2",
+  "kernel_ref": "huangjt66/arc2-paper-b0-matched-control",
+  "kernel_version": 1,
+  "source_sha256": "a925fb02254442d01e8468b6860625b6575a24b66fa05e3bcf531cbf7816fe8f",
+  "status": "COMPLETE",
+  "attempted_at": "2026-11-03T21:13:38.957053+08:00",
+  "post_deadline": true,
+  "authorization": "User explicitly authorized several submissions to improve the method and support the paper, 2026-11-03",
+  "submission_id": 57948827,
+  "public_score_raw": "25.28",
+  "last_checked_at": "2026-11-04T19:23:24.496400+08:00"
+}

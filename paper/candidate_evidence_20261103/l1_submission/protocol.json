@@ -1,0 +1,25 @@
+{
+  "objective": "Linked Kaggle entry for the paper method: length-aware decoding under the B0 budget",
+  "authorization": "User on 2026-11-04 13:15 (+08:00) asked to pursue the ARC Prize paper award by any method",
+  "max_competition_submissions": 1,
+  "max_normal_gpu_hours": 0.5,
+  "max_normal_gpu_hours_each": 0.5,
+  "normal_internal_seconds": 1800,
+  "hidden_internal_seconds": 43200,
+  "api_timeout_seconds": 43200,
+  "stop_after": "2026-11-09T20:00:00+08:00",
+  "source_policy": "Private notebooks, internet disabled, upstream attribution retained",
+  "overlap_public_checks_with_scoring": true,
+  "submission_policy": "One technically validated fixed version; persist POST intent and reconcile ambiguous responses",
+  "score_interpretation": "Post-deadline score; compare descriptively with B0 under identical budget",
+  "versions": [
+    {
+      "key": "L1",
+      "slug": "arc2-paper-l1-length-aware",
+      "title": "ARC2 Paper L1 Length Aware Decoding",
+      "selector": "baseline",
+      "role": "Length-aware decoding with the B0 generator, budget, and selector",
+      "question": "Does length-aware decoding change the hidden-set score relative to the matched B0 control?"
+    }
+  ]
+}
