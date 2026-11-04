@@ -1,6 +1,0 @@
-__pycache__/
-*.pyc
-data/kaggle_2026/*.json
-*.aux
-*.log
-*.out

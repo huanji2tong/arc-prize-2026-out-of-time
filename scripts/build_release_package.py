@@ -155,6 +155,9 @@ def main():
             text = f.read_text(errors='ignore')
             for bad in ['KAGGLE_KEY', 'access_token', 'refresh_token', '"username": "huangjt66", "key"']:
                 assert bad not in text, (f, bad)
+    for f in list(DEST.rglob('* [0-9].*')):     # Finder/iCloud conflict copies
+        if '.git' not in f.relative_to(DEST).parts and f.is_file():
+            f.unlink()
     files = [f for f in sorted(DEST.rglob('*')) if f.is_file() and '.git' not in f.relative_to(DEST).parts]
     manifest = {str(f.relative_to(DEST)): hashlib.sha256(f.read_bytes()).hexdigest() for f in files}
     (DEST / 'MANIFEST.sha256.json').write_text(json.dumps(manifest, indent=1))
