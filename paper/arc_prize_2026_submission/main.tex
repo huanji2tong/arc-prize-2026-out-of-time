@@ -141,7 +141,7 @@ All experiments use the ARC-AGI-2 public evaluation set (\EvalTasks{} tasks, \Ev
 \input{table_leaderboard.tex}
 
 \subsection{Leaderboard}
-Table~\ref{tab:leaderboard} lists the linked entries. Our reproduction of the upstream notebook scores 30.97, against 33.89 reported for the original. B0 caps decoding at 360 seconds per task and scores \ScoreBZero{}; this matched control is the reference for the post-deadline entries, each of which changes one component. Replacing the selector lowered the hidden-set score in both attempts, to \ScoreSOne{} (S1) and \ScoreSTwo{} (S2), consistent with the finding below that selection is not where answers are lost. L1 changes only decoding.
+Table~\ref{tab:leaderboard} lists the linked entries. Our reproduction of the upstream notebook scores 30.97, against 33.89 reported for the original. B0 caps decoding at 360 seconds per task and scores \ScoreBZero{}; this matched control is the reference for the post-deadline entries, each of which changes one component. Replacing the selector lowered the hidden-set score in both attempts, to \ScoreSOne{} (S1) and \ScoreSTwo{} (S2), consistent with the finding below that selection is not where answers are lost. L1 changes only decoding and scores \ScoreLOne{}.
 
 \begin{figure*}[t]
 \centering
