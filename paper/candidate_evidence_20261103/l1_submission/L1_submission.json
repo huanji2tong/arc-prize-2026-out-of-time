@@ -5,11 +5,11 @@
   "kernel_ref": "huangjt66/arc2-paper-l1-length-aware-decoding",
   "kernel_version": 1,
   "source_sha256": "7933cea9737ad42665572c11b13469fb96f6eeef9c2c53b7cfe0b113318045c0",
-  "status": "PENDING",
+  "status": "COMPLETE",
   "attempted_at": "2026-11-04T13:42:23.297725+08:00",
   "post_deadline": true,
   "authorization": "User on 2026-11-04 13:15 (+08:00) asked to pursue the ARC Prize paper award by any method",
   "submission_id": 57972943,
-  "public_score_raw": null,
-  "last_checked_at": "2026-11-04T20:18:06.399864+08:00"
+  "public_score_raw": "26.94",
+  "last_checked_at": "2026-11-05T10:04:45+08:00"
 }

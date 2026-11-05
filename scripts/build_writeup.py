@@ -8,10 +8,16 @@ OUT = ROOT / 'paper/arc_prize_2026_submission'
 
 
 def macros():
+    import json
     vals = {}
     for name in ['numbers.tex', 'numbers_extra.tex']:
         for k, v in re.findall(r'\\newcommand\{\\(\w+)\}\{([^}]*)\}', (OUT / name).read_text()):
             vals[k] = v
+    l1_sub = ROOT / 'paper/candidate_evidence_20261103/l1_submission/L1_submission.json'
+    if l1_sub.exists():
+        score = json.loads(l1_sub.read_text()).get('public_score_raw')
+        if score:
+            vals['ScoreLOne'] = score
     return vals
 
 
@@ -47,25 +53,28 @@ Test-time training for ARC (Akyürek et al.; Cole & Osman), DFS sampling with pr
 
 ## 4. Results
 
-| Entry (Kaggle ARC-AGI-2, public leaderboard) | Status | Score |
-|---|---|---|
-| Upstream notebook V1 (Rudra) | author | 33.89 |
-| Our V1 reproduction | in competition | 30.97 |
-| B0: 360 s decoding, reference selector | late | {ScoreBZero} |
-| S1: B0 + NLL-only selector | late | {ScoreSOne} |
-| S2: B0 + anchored coverage selector | late | {ScoreSTwo} |
-| **L1: B0 + length-aware decoding** | late | {ScoreLOne} |
+| Entry (Kaggle ARC-AGI-2, public leaderboard) | Submission ID | Status | Score |
+|---|---|---|---|
+| Upstream notebook V1 (Rudra) | — | author | 33.89 |
+| Our V1 reproduction | 57771030 | in competition | 30.97 |
+| B0: 360 s decoding, reference selector | 57948827 | late | {ScoreBZero} |
+| S1: B0 + NLL-only selector | 57949528 | late | {ScoreSOne} |
+| S2: B0 + anchored coverage selector | 57950076 | late | {ScoreSTwo} |
+| **L1: B0 + length-aware decoding** | **57972943** | late | **{ScoreLOne}** |
 
 * **Selection is near its ceiling:** all eight selectors solve {ConfSolved}/{ConfOutputs}; only {ConfMissed} correct grids are left unselected. Both selector changes scored below B0 on the hidden set.
 * **The clock explains missing candidates:** the {Unreach} outputs beyond one slice's greedy reach have zero correct candidates; the {Reach} within reach hold all {ConfOracle}. {EvalUnreach} of {EvalOutputs} public evaluation outputs are undecodable under a 360 s budget.
 * **Null results, re-read:** on our weight-training panel only {TrainReach}/{TrainN} outputs fit a slice, so five training/decoding interventions could change at most two outputs.
 * **Matched pilot (same adapter, 180 s per arm):** empty pools {PilotEmptyCtl} → {PilotEmptyLA}, coverage {PilotCovCtl} → {PilotCovLA}, pass@2 {PilotSolvedCtl} → {PilotSolvedLA}, {PilotLosses} losses, time ratio {PilotRatio}; iterative DFS matched the parent on {PilotEq}/{PilotEqN} undeadlined views at {PilotMsIter} vs {PilotMsParent} ms per step.
-{CONF_BULLET}
+{CONF_BULLET}* **Hidden test set (post-deadline, matched 360 s budget):** length-aware decoding (**L1**, submission `57972943`) scores **{ScoreLOne}** versus **{ScoreBZero}** for the matched control (**B0**, submission `57948827`), a **+1.66** point improvement on the official hidden evaluation set with the same model, adaptation steps, decoding budget, and selector.
+
 ![Figure 2](figures/clock.png)
 
 ![Figure 3](figures/pilot.png)
 
 ![Figure 4](figures/gallery.png)
+
+![Figure 5](figures/confirmation.png)
 
 ## 5. Conclusion
 

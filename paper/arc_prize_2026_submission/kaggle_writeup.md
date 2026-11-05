@@ -10,7 +10,7 @@
 
 ## Abstract
 
-Before a model can be right about an ARC-AGI-2 task, it has to finish writing the answer. Replaying the frozen candidate pools of a working Kaggle entry on 68 held-out outputs, eight different selectors solve the same 14, and only 18 pools contain the answer at all: generation, not selection, sets the ceiling. An h×w grid takes hw+h sequential decoding steps, and splitting a fixed budget evenly across view batches can leave no batch enough time for a long answer. None of the 13 outputs that violate this bound has a correct candidate, and under the same budget 28% of all ARC-AGI-2 public evaluation outputs cannot be decoded at all. **Length-aware decoding** (an exact, recursion-free reimplementation of the solver's DFS plus a first-descent schedule) reduces empty candidate pools from 7/9 to 1/9 and solves 2 outputs the original search cannot reach, with the same model, the same 180 seconds, and no losses.
+Before a model can be right about an ARC-AGI-2 task, it has to finish writing the answer. Replaying the frozen candidate pools of a working Kaggle entry on 68 held-out outputs, eight different selectors solve the same 14, and only 18 pools contain the answer at all: generation, not selection, sets the ceiling. An h×w grid takes hw+h sequential decoding steps, and splitting a fixed budget evenly across view batches can leave no batch enough time for a long answer. None of the 13 outputs that violate this bound has a correct candidate, and under the same budget 28% of all ARC-AGI-2 public evaluation outputs cannot be decoded at all. **Length-aware decoding** (an exact, recursion-free reimplementation of the solver's DFS plus a first-descent schedule) reduces empty candidate pools from 7/9 to 1/9 and solves 2 outputs the original search cannot reach, with the same model, the same 180 seconds, and no losses. On 32 untouched reserve tasks, pass@2 moves from 5 to 13 of 48 outputs.
 
 ![Figure 1](figures/teaser.png)
 
@@ -30,25 +30,29 @@ Test-time training for ARC (Akyürek et al.; Cole & Osman), DFS sampling with pr
 
 ## 4. Results
 
-| Entry (Kaggle ARC-AGI-2, public leaderboard) | Status | Score |
-|---|---|---|
-| Upstream notebook V1 (Rudra) | author | 33.89 |
-| Our V1 reproduction | in competition | 30.97 |
-| B0: 360 s decoding, reference selector | late | 25.28 |
-| S1: B0 + NLL-only selector | late | 22.78 |
-| S2: B0 + anchored coverage selector | late | 23.61 |
-| **L1: B0 + length-aware decoding** | late | pending |
+| Entry (Kaggle ARC-AGI-2, public leaderboard) | Submission ID | Status | Score |
+|---|---|---|---|
+| Upstream notebook V1 (Rudra) | — | author | 33.89 |
+| Our V1 reproduction | 57771030 | in competition | 30.97 |
+| B0: 360 s decoding, reference selector | 57948827 | late | 25.28 |
+| S1: B0 + NLL-only selector | 57949528 | late | 22.78 |
+| S2: B0 + anchored coverage selector | 57950076 | late | 23.61 |
+| **L1: B0 + length-aware decoding** | **57972943** | late | **26.94** |
 
 * **Selection is near its ceiling:** all eight selectors solve 14/68; only 4 correct grids are left unselected. Both selector changes scored below B0 on the hidden set.
 * **The clock explains missing candidates:** the 13 outputs beyond one slice's greedy reach have zero correct candidates; the 55 within reach hold all 18. 48 of 172 public evaluation outputs are undecodable under a 360 s budget.
 * **Null results, re-read:** on our weight-training panel only 2/9 outputs fit a slice, so five training/decoding interventions could change at most two outputs.
 * **Matched pilot (same adapter, 180 s per arm):** empty pools 7 → 1, coverage 1 → 3, pass@2 0 → 2, 0 losses, time ratio 0.999; iterative DFS matched the parent on 12/12 undeadlined views at 99.9 vs 103.1 ms per step.
+* **Reserve-task confirmation (32 unseen tasks, 48 outputs):** pass@2 5 → 13 (8 gains, 0 losses; 95% task-bootstrap CI [6.0, 29.8] pp), empty pools 28 → 5, coverage 5 → 13.
+* **Hidden test set (post-deadline, matched 360 s budget):** length-aware decoding (**L1**, submission `57972943`) scores **26.94** versus **25.28** for the matched control (**B0**, submission `57948827`), a **+1.66** point improvement on the official hidden evaluation set with the same model, adaptation steps, decoding budget, and selector.
 
 ![Figure 2](figures/clock.png)
 
 ![Figure 3](figures/pilot.png)
 
 ![Figure 4](figures/gallery.png)
+
+![Figure 5](figures/confirmation.png)
 
 ## 5. Conclusion
 

@@ -1,0 +1,401 @@
+{
+  "task_id": "dd6b8c4b",
+  "train_seconds": 91.1669,
+  "training_steps": 128,
+  "arms": {
+    "length_aware": {
+      "seconds": 183.31131982803345,
+      "requested_seconds": 180,
+      "batch_count": 8,
+      "total_batches": 8,
+      "batches": [
+        {
+          "batch": 0,
+          "seconds": 24.864830493927002,
+          "view_keys": [
+            "dd6b8c4b_0.permute4150723698.ex120",
+            "dd6b8c4b_0.permute6720984531.ex021",
+            "dd6b8c4b_0.rot90.rot90.permute7931086254.ex012",
+            "dd6b8c4b_0.rot90.rot90.permute9302675184.ex120"
+          ],
+          "dfs_trace": {
+            "prefix_calls": 198,
+            "pruned_extensions": 8909,
+            "eos_within_cutoff": 5
+          },
+          "dfs_seconds": 19.783175706863403,
+          "slice_seconds": 22.49997568130493,
+          "extension_cap_seconds": 89.99990320205688,
+          "overran_slice": false,
+          "raw_finished": 5,
+          "valid_finished": 5,
+          "max_suffix_tokens": 132
+        },
+        {
+          "batch": 1,
+          "seconds": 23.46268582344055,
+          "view_keys": [
+            "dd6b8c4b_0.rot90.permute1258796043.ex201",
+            "dd6b8c4b_0.rot90.permute5386701942.ex021",
+            "dd6b8c4b_0.rot90.rot90.rot90.permute2908315674.ex012",
+            "dd6b8c4b_0.rot90.rot90.rot90.permute8579032416.ex012"
+          ],
+          "dfs_trace": {
+            "prefix_calls": 223,
+            "pruned_extensions": 10083,
+            "eos_within_cutoff": 5,
+            "deadline_hit": true
+          },
+          "dfs_seconds": 21.79782724380493,
+          "slice_seconds": 21.711689233779907,
+          "extension_cap_seconds": 65.13506770133972,
+          "overran_slice": false,
+          "raw_finished": 5,
+          "valid_finished": 5,
+          "max_suffix_tokens": 132
+        },
+        {
+          "batch": 2,
+          "seconds": 27.57590651512146,
+          "view_keys": [
+            "dd6b8c4b_1.permute1602397845.ex201",
+            "dd6b8c4b_1.permute6827490351.ex102",
+            "dd6b8c4b_1.rot90.rot90.permute9180254367.ex210",
+            "dd6b8c4b_1.rot90.rot90.permute9368452107.ex102"
+          ],
+          "dfs_trace": {
+            "prefix_calls": 223,
+            "pruned_extensions": 10033,
+            "eos_within_cutoff": 5,
+            "deadline_hit": true
+          },
+          "dfs_seconds": 22.527495622634888,
+          "slice_seconds": 22.499975442886353,
+          "extension_cap_seconds": 89.99990224838257,
+          "overran_slice": false,
+          "raw_finished": 5,
+          "valid_finished": 5,
+          "max_suffix_tokens": 132
+        },
+        {
+          "batch": 3,
+          "seconds": 24.206947088241577,
+          "view_keys": [
+            "dd6b8c4b_1.rot90.permute5436201789.ex021",
+            "dd6b8c4b_1.rot90.permute8024967315.ex210",
+            "dd6b8c4b_1.rot90.rot90.rot90.permute0986123745.ex012",
+            "dd6b8c4b_1.rot90.rot90.rot90.permute7068392154.ex201"
+          ],
+          "dfs_trace": {
+            "prefix_calls": 207,
+            "pruned_extensions": 9331,
+            "eos_within_cutoff": 5,
+            "deadline_hit": true
+          },
+          "dfs_seconds": 20.888562440872192,
+          "slice_seconds": 20.807997226715088,
+          "extension_cap_seconds": 62.423991441726685,
+          "overran_slice": false,
+          "raw_finished": 5,
+          "valid_finished": 5,
+          "max_suffix_tokens": 132
+        },
+        {
+          "batch": 4,
+          "seconds": 20.8692843914032,
+          "view_keys": [
+            "dd6b8c4b_0.transpose.permute4950812673.ex012",
+            "dd6b8c4b_0.transpose.permute9316478025.ex012",
+            "dd6b8c4b_0.transpose.rot90.rot90.permute4281673590.ex201",
+            "dd6b8c4b_0.transpose.rot90.rot90.permute7284135096.ex102"
+          ],
+          "dfs_trace": {
+            "prefix_calls": 215,
+            "pruned_extensions": 9708,
+            "eos_within_cutoff": 4,
+            "deadline_hit": true
+          },
+          "dfs_seconds": 20.866255044937134,
+          "slice_seconds": 20.836188793182373,
+          "extension_cap_seconds": 41.672377586364746,
+          "overran_slice": false,
+          "raw_finished": 4,
+          "valid_finished": 4,
+          "max_suffix_tokens": 132
+        },
+        {
+          "batch": 5,
+          "seconds": 22.543232917785645,
+          "view_keys": [
+            "dd6b8c4b_0.transpose.rot90.permute1654278039.ex021",
+            "dd6b8c4b_0.transpose.rot90.permute3170468295.ex201",
+            "dd6b8c4b_0.transpose.rot90.rot90.rot90.permute4965803712.ex120",
+            "dd6b8c4b_0.transpose.rot90.rot90.rot90.permute7568409321.ex210"
+          ],
+          "dfs_trace": {
+            "prefix_calls": 216,
+            "pruned_extensions": 9741,
+            "eos_within_cutoff": 5,
+            "deadline_hit": true
+          },
+          "dfs_seconds": 20.869126319885254,
+          "slice_seconds": 20.803088903427124,
+          "extension_cap_seconds": 20.803088903427124,
+          "overran_slice": false,
+          "raw_finished": 5,
+          "valid_finished": 5,
+          "max_suffix_tokens": 132
+        },
+        {
+          "batch": 6,
+          "seconds": 20.77820348739624,
+          "view_keys": [
+            "dd6b8c4b_1.transpose.permute5980213764.ex021",
+            "dd6b8c4b_1.transpose.permute6703249158.ex021",
+            "dd6b8c4b_1.transpose.rot90.rot90.permute4907281356.ex012",
+            "dd6b8c4b_1.transpose.rot90.rot90.permute7562830149.ex102"
+          ],
+          "dfs_trace": {
+            "prefix_calls": 197,
+            "pruned_extensions": 8940,
+            "eos_within_cutoff": 3,
+            "deadline_hit": true
+          },
+          "dfs_seconds": 19.12446618080139,
+          "slice_seconds": 19.108516693115234,
+          "extension_cap_seconds": 36.4768648147583,
+          "overran_slice": false,
+          "raw_finished": 3,
+          "valid_finished": 3,
+          "max_suffix_tokens": 132
+        },
+        {
+          "batch": 7,
+          "seconds": 19.009958744049072,
+          "view_keys": [
+            "dd6b8c4b_1.transpose.rot90.permute7613284905.ex120",
+            "dd6b8c4b_1.transpose.rot90.permute7690351428.ex120",
+            "dd6b8c4b_1.transpose.rot90.rot90.rot90.permute6142358709.ex201",
+            "dd6b8c4b_1.transpose.rot90.rot90.rot90.permute6150492378.ex012"
+          ],
+          "dfs_trace": {
+            "prefix_calls": 160,
+            "pruned_extensions": 7120,
+            "eos_within_cutoff": 4,
+            "deadline_hit": true
+          },
+          "dfs_seconds": 15.718853235244751,
+          "slice_seconds": 15.698655128479004,
+          "extension_cap_seconds": 15.698655128479004,
+          "overran_slice": false,
+          "raw_finished": 4,
+          "valid_finished": 4,
+          "max_suffix_tokens": 132
+        }
+      ],
+      "sequence_probability_floor": 0.2,
+      "global_budget_truncated": false
+    },
+    "control": {
+      "seconds": 183.27164363861084,
+      "requested_seconds": 180,
+      "batch_count": 8,
+      "total_batches": 8,
+      "batches": [
+        {
+          "batch": 0,
+          "seconds": 24.653525829315186,
+          "view_keys": [
+            "dd6b8c4b_0.permute4150723698.ex120",
+            "dd6b8c4b_0.permute6720984531.ex021",
+            "dd6b8c4b_0.rot90.rot90.permute7931086254.ex012",
+            "dd6b8c4b_0.rot90.rot90.permute9302675184.ex120"
+          ],
+          "dfs_trace": {
+            "prefix_calls": 198,
+            "pruned_extensions": 8909,
+            "eos_within_cutoff": 5
+          },
+          "dfs_seconds": 19.782468795776367,
+          "slice_seconds": 22.49998188018799,
+          "extension_cap_seconds": null,
+          "overran_slice": false,
+          "raw_finished": 5,
+          "valid_finished": 5,
+          "max_suffix_tokens": 132
+        },
+        {
+          "batch": 1,
+          "seconds": 23.877442121505737,
+          "view_keys": [
+            "dd6b8c4b_0.rot90.permute1258796043.ex201",
+            "dd6b8c4b_0.rot90.permute5386701942.ex021",
+            "dd6b8c4b_0.rot90.rot90.rot90.permute2908315674.ex012",
+            "dd6b8c4b_0.rot90.rot90.rot90.permute8579032416.ex012"
+          ],
+          "dfs_trace": {
+            "prefix_calls": 226,
+            "pruned_extensions": 10224,
+            "eos_within_cutoff": 5,
+            "deadline_hit": true
+          },
+          "dfs_seconds": 22.27377223968506,
+          "slice_seconds": 22.19233202934265,
+          "extension_cap_seconds": null,
+          "overran_slice": false,
+          "raw_finished": 5,
+          "valid_finished": 5,
+          "max_suffix_tokens": 132
+        },
+        {
+          "batch": 2,
+          "seconds": 26.883883953094482,
+          "view_keys": [
+            "dd6b8c4b_1.permute1602397845.ex201",
+            "dd6b8c4b_1.permute6827490351.ex102",
+            "dd6b8c4b_1.rot90.rot90.permute9180254367.ex210",
+            "dd6b8c4b_1.rot90.rot90.permute9368452107.ex102"
+          ],
+          "dfs_trace": {
+            "prefix_calls": 221,
+            "pruned_extensions": 9943,
+            "eos_within_cutoff": 5,
+            "deadline_hit": true
+          },
+          "dfs_seconds": 22.009425163269043,
+          "slice_seconds": 21.911479473114014,
+          "extension_cap_seconds": null,
+          "overran_slice": false,
+          "raw_finished": 5,
+          "valid_finished": 5,
+          "max_suffix_tokens": 132
+        },
+        {
+          "batch": 3,
+          "seconds": 24.206834316253662,
+          "view_keys": [
+            "dd6b8c4b_1.rot90.permute5436201789.ex021",
+            "dd6b8c4b_1.rot90.permute8024967315.ex210",
+            "dd6b8c4b_1.rot90.rot90.rot90.permute0986123745.ex012",
+            "dd6b8c4b_1.rot90.rot90.rot90.permute7068392154.ex201"
+          ],
+          "dfs_trace": {
+            "prefix_calls": 210,
+            "pruned_extensions": 9472,
+            "eos_within_cutoff": 5,
+            "deadline_hit": true
+          },
+          "dfs_seconds": 20.941230297088623,
+          "slice_seconds": 20.91699767112732,
+          "extension_cap_seconds": null,
+          "overran_slice": false,
+          "raw_finished": 5,
+          "valid_finished": 5,
+          "max_suffix_tokens": 132
+        },
+        {
+          "batch": 4,
+          "seconds": 20.203648567199707,
+          "view_keys": [
+            "dd6b8c4b_0.transpose.permute4950812673.ex012",
+            "dd6b8c4b_0.transpose.permute9316478025.ex012",
+            "dd6b8c4b_0.transpose.rot90.rot90.permute4281673590.ex201",
+            "dd6b8c4b_0.transpose.rot90.rot90.permute7284135096.ex102"
+          ],
+          "dfs_trace": {
+            "prefix_calls": 203,
+            "pruned_extensions": 9144,
+            "eos_within_cutoff": 4,
+            "deadline_hit": true
+          },
+          "dfs_seconds": 20.199368000030518,
+          "slice_seconds": 20.094537496566772,
+          "extension_cap_seconds": null,
+          "overran_slice": false,
+          "raw_finished": 4,
+          "valid_finished": 4,
+          "max_suffix_tokens": 132
+        },
+        {
+          "batch": 5,
+          "seconds": 21.684862852096558,
+          "view_keys": [
+            "dd6b8c4b_0.transpose.rot90.permute1654278039.ex021",
+            "dd6b8c4b_0.transpose.rot90.permute3170468295.ex201",
+            "dd6b8c4b_0.transpose.rot90.rot90.rot90.permute4965803712.ex120",
+            "dd6b8c4b_0.transpose.rot90.rot90.rot90.permute7568409321.ex210"
+          ],
+          "dfs_trace": {
+            "prefix_calls": 203,
+            "pruned_extensions": 9130,
+            "eos_within_cutoff": 5,
+            "deadline_hit": true
+          },
+          "dfs_seconds": 20.077197790145874,
+          "slice_seconds": 20.058165788650513,
+          "extension_cap_seconds": null,
+          "overran_slice": false,
+          "raw_finished": 5,
+          "valid_finished": 5,
+          "max_suffix_tokens": 132
+        },
+        {
+          "batch": 6,
+          "seconds": 20.90079402923584,
+          "view_keys": [
+            "dd6b8c4b_1.transpose.permute5980213764.ex021",
+            "dd6b8c4b_1.transpose.permute6703249158.ex021",
+            "dd6b8c4b_1.transpose.rot90.rot90.permute4907281356.ex012",
+            "dd6b8c4b_1.transpose.rot90.rot90.permute7562830149.ex102"
+          ],
+          "dfs_trace": {
+            "prefix_calls": 193,
+            "pruned_extensions": 8752,
+            "eos_within_cutoff": 3,
+            "deadline_hit": true
+          },
+          "dfs_seconds": 19.29484272003174,
+          "slice_seconds": 19.24481511116028,
+          "extension_cap_seconds": null,
+          "overran_slice": false,
+          "raw_finished": 3,
+          "valid_finished": 3,
+          "max_suffix_tokens": 132
+        },
+        {
+          "batch": 7,
+          "seconds": 20.86046004295349,
+          "view_keys": [
+            "dd6b8c4b_1.transpose.rot90.permute7613284905.ex120",
+            "dd6b8c4b_1.transpose.rot90.permute7690351428.ex120",
+            "dd6b8c4b_1.transpose.rot90.rot90.rot90.permute6142358709.ex201",
+            "dd6b8c4b_1.transpose.rot90.rot90.rot90.permute6150492378.ex012"
+          ],
+          "dfs_trace": {
+            "prefix_calls": 171,
+            "pruned_extensions": 7637,
+            "eos_within_cutoff": 4,
+            "deadline_hit": true
+          },
+          "dfs_seconds": 17.615047931671143,
+          "slice_seconds": 17.588831663131714,
+          "extension_cap_seconds": null,
+          "overran_slice": false,
+          "raw_finished": 4,
+          "valid_finished": 4,
+          "max_suffix_tokens": 132
+        }
+      ],
+      "sequence_probability_floor": 0.2,
+      "global_budget_truncated": false
+    }
+  },
+  "shared_adaptation": true,
+  "adapted_weights_sha256": "d0d9a0576d4a1fc14d6b0a02761e71a8c18f6973f4277d67cbcbb30bb64e9e57",
+  "adapter_delta_l2": 8.065828747870068,
+  "changed_adapter_tensors": 506,
+  "arm_order": [
+    "length_aware",
+    "control"
+  ]
+}

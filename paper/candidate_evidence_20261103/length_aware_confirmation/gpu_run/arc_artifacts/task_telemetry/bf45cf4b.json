@@ -1,0 +1,192 @@
+{
+  "task_id": "bf45cf4b",
+  "train_seconds": 103.8223,
+  "training_steps": 128,
+  "arms": {
+    "length_aware": {
+      "seconds": 179.58915972709656,
+      "requested_seconds": 180,
+      "batch_count": 3,
+      "total_batches": 4,
+      "batches": [
+        {
+          "batch": 0,
+          "seconds": 64.8773763179779,
+          "view_keys": [
+            "bf45cf4b_0.permute4150723698.ex012",
+            "bf45cf4b_0.permute9302675184.ex012",
+            "bf45cf4b_0.rot90.rot90.permute5386701942.ex021",
+            "bf45cf4b_0.rot90.rot90.permute8579032416.ex120"
+          ],
+          "dfs_trace": {
+            "prefix_calls": 650,
+            "pruned_extensions": 28600,
+            "eos_within_cutoff": 4,
+            "deadline_hit": true
+          },
+          "dfs_seconds": 61.906469106674194,
+          "slice_seconds": 44.99993872642517,
+          "extension_cap_seconds": 179.99974846839905,
+          "overran_slice": true,
+          "raw_finished": 4,
+          "valid_finished": 4,
+          "max_suffix_tokens": 650
+        },
+        {
+          "batch": 1,
+          "seconds": 62.12436819076538,
+          "view_keys": [
+            "bf45cf4b_0.rot90.permute4281673590.ex102",
+            "bf45cf4b_0.rot90.permute4950812673.ex201",
+            "bf45cf4b_0.rot90.rot90.rot90.permute1654278039.ex210",
+            "bf45cf4b_0.rot90.rot90.rot90.permute4965803712.ex210"
+          ],
+          "dfs_trace": {
+            "prefix_calls": 650,
+            "pruned_extensions": 28598,
+            "eos_within_cutoff": 4,
+            "deadline_hit": true
+          },
+          "dfs_seconds": 62.11698007583618,
+          "slice_seconds": 38.37412476539612,
+          "extension_cap_seconds": 115.12236642837524,
+          "overran_slice": true,
+          "raw_finished": 4,
+          "valid_finished": 4,
+          "max_suffix_tokens": 650
+        },
+        {
+          "batch": 2,
+          "seconds": 52.587135553359985,
+          "view_keys": [
+            "bf45cf4b_0.transpose.permute1602397845.ex201",
+            "bf45cf4b_0.transpose.permute9180254367.ex021",
+            "bf45cf4b_0.transpose.rot90.rot90.permute0986123745.ex021",
+            "bf45cf4b_0.transpose.rot90.rot90.permute5436201789.ex021"
+          ],
+          "dfs_trace": {
+            "prefix_calls": 525,
+            "pruned_extensions": 23099,
+            "eos_within_cutoff": 2,
+            "deadline_hit": true
+          },
+          "dfs_seconds": 49.86549234390259,
+          "slice_seconds": 26.499001264572144,
+          "extension_cap_seconds": 52.997992753982544,
+          "overran_slice": true,
+          "raw_finished": 2,
+          "valid_finished": 2,
+          "max_suffix_tokens": 525
+        }
+      ],
+      "sequence_probability_floor": 0.2,
+      "global_budget_truncated": false
+    },
+    "control": {
+      "seconds": 180.07628536224365,
+      "requested_seconds": 180,
+      "batch_count": 4,
+      "total_batches": 4,
+      "batches": [
+        {
+          "batch": 0,
+          "seconds": 45.046966552734375,
+          "view_keys": [
+            "bf45cf4b_0.permute4150723698.ex012",
+            "bf45cf4b_0.permute9302675184.ex012",
+            "bf45cf4b_0.rot90.rot90.permute5386701942.ex021",
+            "bf45cf4b_0.rot90.rot90.permute8579032416.ex120"
+          ],
+          "dfs_trace": {
+            "prefix_calls": 458,
+            "pruned_extensions": 20152,
+            "deadline_hit": true
+          },
+          "dfs_seconds": 45.046959400177,
+          "slice_seconds": 44.999971866607666,
+          "extension_cap_seconds": null,
+          "overran_slice": false,
+          "raw_finished": 0,
+          "valid_finished": 0,
+          "max_suffix_tokens": 0
+        },
+        {
+          "batch": 1,
+          "seconds": 45.044092416763306,
+          "view_keys": [
+            "bf45cf4b_0.rot90.permute4281673590.ex102",
+            "bf45cf4b_0.rot90.permute4950812673.ex201",
+            "bf45cf4b_0.rot90.rot90.rot90.permute1654278039.ex210",
+            "bf45cf4b_0.rot90.rot90.rot90.permute4965803712.ex210"
+          ],
+          "dfs_trace": {
+            "prefix_calls": 454,
+            "pruned_extensions": 19974,
+            "deadline_hit": true
+          },
+          "dfs_seconds": 45.044084787368774,
+          "slice_seconds": 44.98430562019348,
+          "extension_cap_seconds": null,
+          "overran_slice": false,
+          "raw_finished": 0,
+          "valid_finished": 0,
+          "max_suffix_tokens": 0
+        },
+        {
+          "batch": 2,
+          "seconds": 45.003044843673706,
+          "view_keys": [
+            "bf45cf4b_0.transpose.permute1602397845.ex201",
+            "bf45cf4b_0.transpose.permute9180254367.ex021",
+            "bf45cf4b_0.transpose.rot90.rot90.permute0986123745.ex021",
+            "bf45cf4b_0.transpose.rot90.rot90.permute5436201789.ex021"
+          ],
+          "dfs_trace": {
+            "prefix_calls": 461,
+            "pruned_extensions": 20283,
+            "deadline_hit": true
+          },
+          "dfs_seconds": 45.003037214279175,
+          "slice_seconds": 44.954410552978516,
+          "extension_cap_seconds": null,
+          "overran_slice": false,
+          "raw_finished": 0,
+          "valid_finished": 0,
+          "max_suffix_tokens": 0
+        },
+        {
+          "batch": 3,
+          "seconds": 44.98204302787781,
+          "view_keys": [
+            "bf45cf4b_0.transpose.rot90.permute4907281356.ex102",
+            "bf45cf4b_0.transpose.rot90.permute5980213764.ex102",
+            "bf45cf4b_0.transpose.rot90.rot90.rot90.permute6142358709.ex021",
+            "bf45cf4b_0.transpose.rot90.rot90.rot90.permute7690351428.ex210"
+          ],
+          "dfs_trace": {
+            "prefix_calls": 463,
+            "pruned_extensions": 20372,
+            "deadline_hit": true
+          },
+          "dfs_seconds": 44.9820351600647,
+          "slice_seconds": 44.9057719707489,
+          "extension_cap_seconds": null,
+          "overran_slice": false,
+          "raw_finished": 0,
+          "valid_finished": 0,
+          "max_suffix_tokens": 0
+        }
+      ],
+      "sequence_probability_floor": 0.2,
+      "global_budget_truncated": false
+    }
+  },
+  "shared_adaptation": true,
+  "adapted_weights_sha256": "8da469bb4ae9d2a46c0730fd4a585debf7098e71c67be667e4e4592278a76403",
+  "adapter_delta_l2": 5.453105023633231,
+  "changed_adapter_tensors": 506,
+  "arm_order": [
+    "length_aware",
+    "control"
+  ]
+}
